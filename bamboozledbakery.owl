@@ -14,16 +14,24 @@
 #################################################################
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#canEat
-:canEat rdf:type owl:ObjectProperty ;
-        rdfs:domain :Person ;
-        rdfs:range :Dessert .
+bakery:canEat rdf:type owl:ObjectProperty ;
+              rdfs:domain bakery:Person ;
+              rdfs:range bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#contains
+bakery:contains rdf:type owl:ObjectProperty .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hasIngredient
-:hasIngredient rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain :Dessert ;
-               rdfs:range :Ingredient .
+bakery:hasIngredient rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain bakery:Dessert ;
+                     rdfs:range bakery:Ingredient .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sourcedFrom
+bakery:sourcedFrom rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -31,63 +39,77 @@
 #################################################################
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#AlcoholicDessert
-:AlcoholicDessert rdf:type owl:Class ;
-                  rdfs:subClassOf :Dessert .
+bakery:AlcoholicDessert rdf:type owl:Class ;
+                        rdfs:subClassOf bakery:Dessert .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#AlcoholicIngredient
-:AlcoholicIngredient rdf:type owl:Class ;
-                     rdfs:subClassOf :Ingredient .
+bakery:AlcoholicIngredient rdf:type owl:Class ;
+                           rdfs:subClassOf bakery:Ingredient .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Animal
+bakery:Animal rdf:type owl:Class ;
+              rdfs:subClassOf bakery:Source .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#AnimalDessert
-:AnimalDessert rdf:type owl:Class ;
-               rdfs:subClassOf :Dessert .
+bakery:AnimalDessert rdf:type owl:Class ;
+                     rdfs:subClassOf bakery:Dessert .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#AnimalIngredient
-:AnimalIngredient rdf:type owl:Class ;
-                  rdfs:subClassOf :Ingredient .
+bakery:AnimalIngredient rdf:type owl:Class ;
+                        rdfs:subClassOf bakery:Ingredient .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Dessert
-:Dessert rdf:type owl:Class ;
-         rdfs:subClassOf owl:Thing .
+bakery:Dessert rdf:type owl:Class ;
+               rdfs:subClassOf owl:Thing .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenDessert
-:GlutenDessert rdf:type owl:Class ;
-               rdfs:subClassOf :Dessert .
+bakery:GlutenDessert rdf:type owl:Class ;
+                     rdfs:subClassOf bakery:Dessert .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenIngredient
-:GlutenIngredient rdf:type owl:Class ;
-                  rdfs:subClassOf :Ingredient .
+bakery:GlutenIngredient rdf:type owl:Class ;
+                        rdfs:subClassOf bakery:Ingredient .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenSensitive
-:GlutenSensitive rdf:type owl:Class ;
-                 rdfs:subClassOf :Person .
+bakery:GlutenSensitive rdf:type owl:Class ;
+                       rdfs:subClassOf bakery:Person .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ingredient
-:Ingredient rdf:type owl:Class ;
-            rdfs:subClassOf owl:Thing .
+bakery:Ingredient rdf:type owl:Class ;
+                  rdfs:subClassOf owl:Thing .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Person
-:Person rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+bakery:Person rdf:type owl:Class ;
+              rdfs:subClassOf owl:Thing .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Plant
+bakery:Plant rdf:type owl:Class ;
+             rdfs:subClassOf bakery:Source .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Source
+bakery:Source rdf:type owl:Class .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Teetotaller
-:Teetotaller rdf:type owl:Class ;
-             rdfs:subClassOf :Person .
+bakery:Teetotaller rdf:type owl:Class ;
+                   rdfs:subClassOf bakery:Person .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vegan
-:Vegan rdf:type owl:Class ;
-       rdfs:subClassOf :Person .
+bakery:Vegan rdf:type owl:Class ;
+             rdfs:subClassOf bakery:Person .
 
 
 #################################################################
@@ -95,71 +117,82 @@
 #################################################################
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Almond_tart
-:Almond_tart rdf:type owl:NamedIndividual ;
-             :hasIngredient :almonds ,
-                            :eggs ,
-                            :flour ,
-                            :milk ,
-                            :sugar .
+bakery:Almond_tart rdf:type owl:NamedIndividual ,
+                            bakery:Dessert ;
+                   bakery:hasIngredient bakery:almonds ,
+                                        bakery:eggs ,
+                                        bakery:flour ,
+                                        bakery:milk ,
+                                        bakery:sugar .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chicken
+bakery:Chicken rdf:type owl:NamedIndividual ,
+                        bakery:Animal .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenSensitiveCustomer
-:GlutenSensitiveCustomer rdf:type owl:NamedIndividual ,
-                                  :GlutenSensitive .
+bakery:GlutenSensitiveCustomer rdf:type owl:NamedIndividual ,
+                                        bakery:GlutenSensitive .
 
 [ rdf:type owl:NegativePropertyAssertion ;
-   owl:sourceIndividual :GlutenSensitiveCustomer ;
-   owl:assertionProperty :canEat ;
-   owl:targetIndividual :flour
+   owl:sourceIndividual bakery:GlutenSensitiveCustomer ;
+   owl:assertionProperty bakery:canEat ;
+   owl:targetIndividual bakery:flour
  ] .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#TeetotallerCustomer
-:TeetotallerCustomer rdf:type owl:NamedIndividual ,
-                              :Teetotaller .
+bakery:TeetotallerCustomer rdf:type owl:NamedIndividual ,
+                                    bakery:Teetotaller .
 
 [ rdf:type owl:NegativePropertyAssertion ;
-   owl:sourceIndividual :TeetotallerCustomer ;
-   owl:assertionProperty :canEat ;
-   owl:targetIndividual :liquore_strega
+   owl:sourceIndividual bakery:TeetotallerCustomer ;
+   owl:assertionProperty bakery:canEat ;
+   owl:targetIndividual bakery:liquore_strega
  ] .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VeganCustomer
-:VeganCustomer rdf:type owl:NamedIndividual ,
-                        :Vegan .
+bakery:VeganCustomer rdf:type owl:NamedIndividual ,
+                              bakery:Vegan .
 
 [ rdf:type owl:NegativePropertyAssertion ;
-   owl:sourceIndividual :VeganCustomer ;
-   owl:assertionProperty :canEat ;
-   owl:targetIndividual :eggs
+   owl:sourceIndividual bakery:VeganCustomer ;
+   owl:assertionProperty bakery:canEat ;
+   owl:targetIndividual bakery:eggs
  ] .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almonds
-:almonds rdf:type owl:NamedIndividual .
+bakery:almonds rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#eggs
-:eggs rdf:type owl:NamedIndividual .
+bakery:eggs rdf:type owl:NamedIndividual ;
+            bakery:sourcedFrom bakery:Chicken .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#flour
-:flour rdf:type owl:NamedIndividual ,
-                :GlutenIngredient .
+bakery:flour rdf:type owl:NamedIndividual ;
+             bakery:contains bakery:gluten .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gluten
+bakery:gluten rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#liquore_strega
-:liquore_strega rdf:type owl:NamedIndividual ,
-                         :AlcoholicIngredient .
+bakery:liquore_strega rdf:type owl:NamedIndividual ,
+                               bakery:AlcoholicIngredient .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#milk
-:milk rdf:type owl:NamedIndividual .
+bakery:milk rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sugar
-:sugar rdf:type owl:NamedIndividual .
+bakery:sugar rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
