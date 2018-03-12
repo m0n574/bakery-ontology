@@ -1,0 +1,1928 @@
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almond_tart
+bakery:almond_tart rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:almonds ,
+bakery:eggs ,
+bakery:milk ,
+bakery:sugar ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#angel_food_cake
+bakery:angel_food_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggwhites ,
+bakery:sponge ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apple_brown_betty
+bakery:apple_brown_betty rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:apples ,
+bakery:crumbs ,
+bakery:butter ,
+bakery:brownsugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apple_charlotte
+bakery:apple_charlotte rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:apples ,
+bakery:sugar ,
+bakery:butter ,
+bakery:breadslices .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apple_crumble
+bakery:apple_crumble rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:apples ,
+bakery:flour ,
+bakery:sugar ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#banana_muffins
+bakery:banana_muffins rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:bananas ,
+bakery:flour ,
+bakery:eggs ,
+bakery:milk ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#banoffee_pie
+bakery:banoffee_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:bananas ,
+bakery:cream ,
+bakery:toffee ,
+bakery:biscuitcrumbs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#battenberg_cake
+bakery:battenberg_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sponge ,
+bakery:jam ,
+bakery:marzipan .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#belgian_waffles
+bakery:belgian_waffles rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:milk ,
+bakery:flour ,
+bakery:sugar ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#biscotti_regina
+bakery:biscotti_regina rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sesameseeds ,
+bakery:orangezest ,
+bakery:flour ,
+bakery:eggs ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#biscuit_tortoni
+bakery:biscuit_tortoni rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:heavycream ,
+bakery:almonds ,
+bakery:chocolatechips ,
+bakery:rum .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#black_forest_gateau
+bakery:black_forest_gateau rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cherries ,
+bakery:cocoapowder ,
+bakery:eggs ,
+bakery:flour ,
+bakery:whippedcream ,
+bakery:kirsch ,
+bakery:chocolatecurls .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#blueberry_pie
+bakery:blueberry_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:blueberries ,
+bakery:butter ,
+bakery:milk ,
+bakery:sugar ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#boston_cream_pie
+bakery:boston_cream_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:heavycream ,
+bakery:buttermilk ,
+bakery:flour ,
+bakery:button ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bread_and_butter_pudding
+bakery:bread_and_butter_pudding rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:breadslices ,
+bakery:sugar ,
+bakery:butter ,
+bakery:milk ,
+bakery:eggs ,
+bakery:cinnamon .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bundt_cake
+bakery:bundt_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:milk ,
+bakery:flour ,
+bakery:sugar ,
+bakery:lemonzest .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#butterkuchen
+bakery:butterkuchen rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#butterscotch_pie
+bakery:butterscotch_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:brownsugar ,
+bakery:eggyolks ,
+bakery:cornstarch ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cake_pops
+bakery:cake_pops rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#capuccino_chocolate_muffins
+bakery:capuccino_chocolate_muffins rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:coffeepowder ,
+bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#caraway_seed_cake
+bakery:caraway_seed_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:carawayseeds ,
+bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#carrot_cake
+bakery:carrot_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:shreddedcarrots ,
+bakery:sultanas ,
+bakery:orangezest ,
+bakery:cinnamon ,
+bakery:nutmeg ,
+bakery:flour ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cassata_cake
+bakery:cassata_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:ricottacheese ,
+bakery:cornstarch ,
+bakery:butter ,
+bakery:flour ,
+bakery:citrusoil ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#castella_cake
+bakery:castella_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sugar ,
+bakery:flour ,
+bakery:eggs ,
+bakery:starchsyrup .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chantilly_cake
+bakery:chantilly_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:heavycream ,
+bakery:flour ,
+bakery:butter ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chelsea_buns
+bakery:chelsea_buns rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sugar ,
+bakery:flour ,
+bakery:eggs ,
+bakery:starchsyrup ,
+bakery:sultanas ,
+bakery:raisins .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cherries_jubilee
+bakery:cherries_jubilee rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cherries ,
+bakery:cherryliqueur ,
+bakery:vanillaicecream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cherry_pie
+bakery:cherry_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cherries ,
+bakery:butter ,
+bakery:sugar ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chiffon_cake
+bakery:chiffon_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:vegetableoil ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:flour ,
+bakery:icingsugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_bombe
+bakery:chocolate_bombe rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:groundalmonds ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:vanillaessence ,
+bakery:heavycream ,
+bakery:chocolate .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_brownies
+bakery:chocolate_brownies rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolatechips ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_chip_cookies
+bakery:chocolate_chip_cookies rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolatechips ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_chip_scones
+bakery:chocolate_chip_scones rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolatechips ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:milk ,
+bakery:bakingpowder .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_eclairs
+bakery:chocolate_eclairs rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chouxpastry ,
+bakery:chocolatefondant ,
+bakery:heavycream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_fudge_cake
+bakery:chocolate_fudge_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:goldensyrup ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:eggs ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_ganache_cake
+bakery:chocolate_ganache_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:brownsugar ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:eggs ,
+bakery:chocolateganache .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_lava_cake
+bakery:chocolate_lava_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:chocolate ,
+bakery:cocoapowder ,
+bakery:eggyolks ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_mousse
+bakery:chocolate_mousse rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolate ,
+bakery:cocoapowder ,
+bakery:orangezest ,
+bakery:eggyolks ,
+bakery:eggwhites ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_pralines
+bakery:chocolate_pralines rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:hazelnuts ,
+bakery:almonds ,
+bakery:chocolate ,
+bakery:sugar ,
+bakery:pecans ,
+bakery:cream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_truffles
+bakery:chocolate_truffles rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolateganache ,
+bakery:cocoapowder ,
+bakery:toastednuts ,
+bakery:heavycream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#christmas_fruitcake
+bakery:christmas_fruitcake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:driedcherries ,
+bakery:raisins ,
+bakery:sultanas ,
+bakery:driedcranberries ,
+bakery:brandy ,
+bakery:flour ,
+bakery:eggs ,
+bakery:milk ,
+bakery:sugar ,
+bakery:nutmeg .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cinnamon_rolls
+bakery:cinnamon_rolls rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:cinnamon ,
+bakery:sugar ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coconut_cake
+bakery:coconut_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:shreddedcoconut ,
+bakery:flour ,
+bakery:milk ,
+bakery:eggs ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coconut_macaroons
+bakery:coconut_macaroons rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:shreddedcoconut ,
+bakery:condensedmilk ,
+bakery:eggwhites ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coffee_cake
+bakery:coffee_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:coffeepowder ,
+bakery:flour ,
+bakery:milk ,
+bakery:sugar ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cracker_cake
+bakery:cracker_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:saltines ,
+bakery:blueberries ,
+bakery:coolwhip ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crème_brûlée
+bakery:crème_brûlée rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:vanillaessence ,
+bakery:eggs ,
+bakery:milk ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crepes_suzette
+bakery:crepes_suzette rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:milk ,
+bakery:orangejuice ,
+bakery:orangezest ,
+bakery:GrandMarnier .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crumb_cake
+bakery:crumb_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:crumbs ,
+bakery:brownsugar ,
+bakery:butter ,
+bakery:flour ,
+bakery:cinnamon .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#custard_tarts
+bakery:custard_tarts rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:custard ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar ,
+bakery:eggyolks ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#devils_food_cake
+bakery:devils_food_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cocoapowder ,
+bakery:coffeepowder ,
+bakery:sugar ,
+bakery:milk ,
+bakery:flour ,
+bakery:chocolate ,
+bakery:eggs ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#double_chocolate_muffins
+bakery:double_chocolate_muffins rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cocoapowder ,
+bakery:chocolatechips ,
+bakery:eggs ,
+bakery:flour ,
+bakery:butter ,
+bakery:milk ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#dundee_cake
+bakery:dundee_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sultanas ,
+bakery:orangezest ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:flour ,
+bakery:butter ,
+bakery:currants ,
+bakery:almonds .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#eccles_cakes
+bakery:eccles_cakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:currants ,
+bakery:brownsugar ,
+bakery:butter ,
+bakery:flour ,
+bakery:cinnamon ,
+bakery:groundginger ,
+bakery:orangezest .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#flourless_chocolate_cake
+bakery:flourless_chocolate_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:noflour ,
+bakery:chocolate ,
+bakery:cocoapowder ,
+bakery:eggwhites ,
+bakery:eggyolks ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#foam_cake
+bakery:foam_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:sugar ,
+bakery:eggwhites ,
+bakery:bakingpowder .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#fruit_flan
+bakery:fruit_flan rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:butter ,
+bakery:sugar ,
+bakery:heavycream ,
+bakery:blueberries ,
+bakery:apples ,
+bakery:bananas .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#fruit_salad
+bakery:fruit_salad rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:blueberries ,
+bakery:apples ,
+bakery:bananas .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#funnel_cakes
+bakery:funnel_cakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:flour ,
+bakery:sugar ,
+bakery:vegetableoil ,
+bakery:bakingpowder ,
+bakery:cinnamon .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gelato
+bakery:gelato rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:milk ,
+bakery:sugar ,
+bakery:eggyolks ,
+bakery:cream ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#german_chocolate_cake
+bakery:german_chocolate_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:sugar ,
+bakery:chocolate ,
+bakery:eggyolks ,
+bakery:eggwhites ,
+bakery:shreddedcoconut ,
+bakery:choppedpecans ,
+bakery:buttermilk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gingerbread_house
+bakery:gingerbread_house rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:goldensyrup ,
+bakery:groundginger ,
+bakery:flour ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gingerbread_men
+bakery:gingerbread_men rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:goldensyrup ,
+bakery:groundginger ,
+bakery:flour ,
+bakery:butter ,
+bakery:chocolatebuttons .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gooey_butter_cake
+bakery:gooey_butter_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:butter ,
+bakery:sugar ,
+bakery:eggs ,
+bakery:vanillaessence ,
+bakery:creamcheese .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gugelhupf_cake
+bakery:gugelhupf_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggyolks ,
+bakery:eggwhites ,
+bakery:butter ,
+bakery:cocoapowder ,
+bakery:flour ,
+bakery:milk ,
+bakery:icingsugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hot_cakes_with_syrup
+bakery:hot_cakes_with_syrup rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:flour ,
+bakery:sugar ,
+bakery:bakingpowder ,
+bakery:goldensyrup .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hot_milk_cake
+bakery:hot_milk_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar ,
+bakery:hotmilk ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hummingbird_cake
+bakery:hummingbird_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:crushedpineapple ,
+bakery:bananas ,
+bakery:pecans ,
+bakery:eggs ,
+bakery:vanillaessence ,
+bakery:cinnamon ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ice_cream_cake
+bakery:ice_cream_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:icecream ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ice_cream_sundaes
+bakery:ice_cream_sundaes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:icecream ,
+bakery:chocolatesauce ,
+bakery:pecans .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jaffa_cakes
+bakery:jaffa_cakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolate ,
+bakery:flour ,
+bakery:eggs ,
+bakery:flour ,
+bakery:sugar ,
+bakery:orangezest ,
+bakery:gelatin .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jam_rolly_polly
+bakery:jam_rolly_polly rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:jam ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jam_tart
+bakery:jam_tart rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:jam ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jamaican_rum_cake
+bakery:jamaican_rum_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:rum ,
+bakery:groundginger ,
+bakery:flour ,
+bakery:eggs ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jewish_apple_cake
+bakery:jewish_apple_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:apples ,
+bakery:orangejuice ,
+bakery:vanillaessence ,
+bakery:cinnamon ,
+bakery:eggs ,
+bakery:flour ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#kentucky_jam_cake
+bakery:kentucky_jam_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:buttermilk ,
+bakery:pecans ,
+bakery:jam ,
+bakery:raisins ,
+bakery:eggs ,
+bakery:butter ,
+bakery:cinnamon ,
+bakery:groundcloves .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ladyfinger_biscuits
+bakery:ladyfinger_biscuits rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggwhites ,
+bakery:eggyolks ,
+bakery:sugar ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lamington_cake
+bakery:lamington_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolate ,
+bakery:heavycream ,
+bakery:shreddedcoconut ,
+bakery:flour ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lardy_cake
+bakery:lardy_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:lard ,
+bakery:sugar ,
+bakery:flour ,
+bakery:milk ,
+bakery:groundginger ,
+bakery:groundcloves .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#layer_cake
+bakery:layer_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:groundalmonds ,
+bakery:buttercream ,
+bakery:flour ,
+bakery:sugar ,
+bakery:eggs ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_citrus_tart
+bakery:lemon_citrus_tart rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:lemonzest ,
+bakery:eggyolks ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar ,
+bakery:lemonjuice .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_drizzle_cake
+bakery:lemon_drizzle_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:lemonzest ,
+bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar ,
+bakery:lemonjuice .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_meringue_pie
+bakery:lemon_meringue_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggyolks ,
+bakery:eggwhites ,
+bakery:meringue ,
+bakery:lemonjuice ,
+bakery:lemonzest ,
+bakery:sugar ,
+bakery:flour ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#madeira_cake
+bakery:madeira_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:milk ,
+bakery:sugar ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#madeleines
+bakery:madeleines rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:sugar ,
+bakery:flour ,
+bakery:lemonzest ,
+bakery:sugar ,
+bakery:bakingpowder .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_marble_cake
+bakery:chocolate_marble_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sugar ,
+bakery:flour ,
+bakery:cocoapowder ,
+bakery:eggs ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#marzipan_cake
+bakery:marzipan_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:marzipan ,
+bakery:almondpaste ,
+bakery:groundalmonds ,
+bakery:sugar ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#meringue_cake
+bakery:meringue_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cornstarch ,
+bakery:sugar ,
+bakery:meringue ,
+bakery:heavycream ,
+bakery:eggwhites .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#millionaires_shortbread_squares
+bakery:millionaires_shortbread_squares rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:butter ,
+bakery:goldensyrup ,
+bakery:darkchocolate ,
+bakery:condensedmilk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#molasses_cake
+bakery:molasses_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:molasses ,
+bakery:brownsugar ,
+bakery:groundginger ,
+bakery:cinnamon ,
+bakery:flour ,
+bakery:coffeepowder .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#molten_chocolate_cake
+bakery:molten_chocolate_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:darkchocolate ,
+bakery:flour ,
+bakery:eggs ,
+bakery:butter ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#napoleon_cream_slice
+bakery:napoleon_cream_slice rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:heavycream ,
+bakery:sugar ,
+bakery:butter ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#neapolitan_ice_cream
+bakery:neapolitan_ice_cream rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:icecream ,
+bakery:wafers .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#new_york_cheesecake
+bakery:new_york_cheesecake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:creamcheese ,
+bakery:biscuitcrumbs ,
+bakery:heavycream ,
+bakery:goldensyrup ,
+bakery:lemonzest .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#nutella_pancakes
+bakery:nutella_pancakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:Nutella ,
+bakery:eggs ,
+bakery:flour ,
+bakery:milk .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pain_depices
+bakery:pain_depices rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:ryeflour ,
+bakery:groundginger ,
+bakery:cinnamon ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pan_forte
+bakery:pan_forte rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:hazelnuts ,
+bakery:almonds ,
+bakery:groundginger ,
+bakery:cinnamon ,
+bakery:orangezest ,
+bakery:honey ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pandan_cake
+bakery:pandan_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggyolks ,
+bakery:coconutmilk ,
+bakery:sugar ,
+bakery:eggwhites ,
+bakery:pandanleaves .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#panna_cotta
+bakery:panna_cotta rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:vanillaessence ,
+bakery:eggs ,
+bakery:heavycream ,
+bakery:sugar ,
+bakery:freshmint ,
+bakery:liqueur .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pannetone
+bakery:pannetone rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:breadslices ,
+bakery:sugar ,
+bakery:butter ,
+bakery:milk ,
+bakery:eggs ,
+bakery:cinnamon .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pavlova
+bakery:pavlova rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cornflour ,
+bakery:vanillaessence ,
+bakery:eggwhites ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peach_melba
+bakery:peach_melba rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:peaches ,
+bakery:vanillaessence ,
+bakery:sugar ,
+bakery:lemonjuice .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peanut_butter_cups
+bakery:peanut_butter_cups rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:peanutbutter ,
+bakery:chocolate ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pear_flan
+bakery:pear_flan rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:pears ,
+bakery:milk ,
+bakery:sugar ,
+bakery:flour ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pecan_pie
+bakery:pecan_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:pecans ,
+bakery:goldensyrup ,
+bakery:flour ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#petit_fours
+bakery:petit_fours rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sugar ,
+bakery:butter ,
+bakery:flour ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#poire_belle_helene
+bakery:poire_belle_helene rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:pears ,
+bakery:sugar ,
+bakery:lemonjuice ,
+bakery:vanillaessence ,
+bakery:chocolate ,
+bakery:heavycream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pound_cake
+bakery:pound_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:sugar ,
+bakery:eggs ,
+bakery:flour ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#prinzregententorte
+bakery:prinzregententorte rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolate ,
+bakery:buttercream ,
+bakery:apricotjam ,
+bakery:flour ,
+bakery:eggs ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#profiteroles_and_chocolate_sauce
+bakery:profiteroles_and_chocolate_sauce rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:eggs ,
+bakery:butter ,
+bakery:heavycream ,
+bakery:chocolate .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pumpkin_pie
+bakery:pumpkin_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:pumpkin ,
+bakery:cinnamon ,
+bakery:eggs ,
+bakery:milk ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#punschkrapfen
+bakery:punschkrapfen rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:orangezest ,
+bakery:rum ,
+bakery:apricotjam ,
+bakery:chocolate ,
+bakery:butter ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#red_velvet_cake
+bakery:red_velvet_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolate ,
+bakery:cocoapowder ,
+bakery:beetrootjuice ,
+bakery:eggs ,
+bakery:vanillaessence ,
+bakery:sugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rice_krispie_cakes
+bakery:rice_krispie_cakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:RiceKrispies ,
+bakery:chocolate .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rice_pudding
+bakery:rice_pudding rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:whiterice ,
+bakery:milk ,
+bakery:sugar ,
+bakery:cinnamon .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rock_cakes
+bakery:rock_cakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:milk ,
+bakery:sugar ,
+bakery:eggs ,
+bakery:raisins .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rocky_road
+bakery:rocky_road rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:chocolate ,
+bakery:goldensyrup ,
+bakery:cocoapowder ,
+bakery:minimarshmallows ,
+bakery:biscuitcrumbs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rum_baba
+bakery:rum_baba rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggs ,
+bakery:butter ,
+bakery:rum ,
+bakery:heavycream ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rum_cake
+bakery:rum_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:rum ,
+bakery:eggs ,
+bakery:flour ,
+bakery:butter ,
+bakery:choppedwalnuts .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sachertorte
+bakery:sachertorte rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:apricotjam ,
+bakery:chocolate ,
+bakery:groundalmonds ,
+bakery:flour ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sesame_seed_cake
+bakery:sesame_seed_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sesameseeds ,
+bakery:sugar ,
+bakery:eggs ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#shoofly_pie
+bakery:shoofly_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:brownsugar ,
+bakery:molasses ,
+bakery:lard ,
+bakery:flour ,
+bakery:vanillaessence ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#simnel_cake
+bakery:simnel_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cherries ,
+bakery:butter ,
+bakery:brownsugar ,
+bakery:sultanas ,
+bakery:orangezest ,
+bakery:marzipan ,
+bakery:apricotjam .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#snickers_cake
+bakery:snickers_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:peanuts ,
+bakery:marshmallowfluff ,
+bakery:peanutbutter ,
+bakery:condensedmilk ,
+bakery:heavycream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#spice_cake
+bakery:spice_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:groundginger ,
+bakery:groundcloves ,
+bakery:cinnamon ,
+bakery:flour ,
+bakery:eggs ,
+bakery:milk ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sponge_cake
+bakery:sponge_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:milk ,
+bakery:eggs ,
+bakery:flour ,
+bakery:sugar ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#stollen_cake
+bakery:stollen_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:groundnutmeg ,
+bakery:groundcloves ,
+bakery:marzipan ,
+bakery:raisins ,
+bakery:flour ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#strawberry_cheesecake
+bakery:strawberry_cheesecake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:strawberries ,
+bakery:creamcheese ,
+bakery:biscuitcrumbs ,
+bakery:heavycream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#strawberry_shortcake
+bakery:strawberry_shortcake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:strawberries ,
+bakery:sugar ,
+bakery:flour ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#streuselkuchen
+bakery:streuselkuchen rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:choppedwalnuts ,
+bakery:cinnamon ,
+bakery:groundcloves ,
+bakery:butter ,
+bakery:cornstarch .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#swiss_roll
+bakery:swiss_roll rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:flour ,
+bakery:eggs ,
+bakery:butter ,
+bakery:heavycream ,
+bakery:chocolate .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tarta_de_santiago
+bakery:tarta_de_santiago rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:almonds ,
+bakery:eggs ,
+bakery:milk ,
+bakery:sugar ,
+bakery:flour ,
+bakery:lemonzest ,
+bakery:orangezest .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tarte_tatin
+bakery:tarte_tatin rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:apples ,
+bakery:butter ,
+bakery:eggyolks ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tartufo
+bakery:tartufo rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:heavycream ,
+bakery:chocolatecookiecrumbs ,
+bakery:cherries ,
+bakery:chocolate .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_marshmallow_tea_cakes
+bakery:chocolate_marshmallow_tea_cakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:darkchocolate ,
+bakery:eggwhites ,
+bakery:biscuitcrumbs ,
+bakery:goldensyrup .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tea_loaf
+bakery:tea_loaf rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:sultanas ,
+bakery:brownsugar ,
+bakery:orangejuice ,
+bakery:hottea ,
+bakery:flour ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tin_roof_pie
+bakery:tin_roof_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cornflakes ,
+bakery:goldensyrup ,
+bakery:peanuts ,
+bakery:icecream .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tipsy_cake
+bakery:tipsy_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:cornstarch ,
+bakery:eggyolks ,
+bakery:heavycream ,
+bakery:brandy ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tiramisu
+bakery:tiramisu rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:Marsalawine ,
+bakery:mascarponecheese ,
+bakery:darkchocolate ,
+bakery:cocoapowder ,
+bakery:coffeepowder ,
+bakery:spongefingers .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#torta_caprese
+bakery:torta_caprese rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:darkchocolate ,
+bakery:almondessence ,
+bakery:groundhazelnuts ,
+bakery:groundalmonds ,
+bakery:liquorestrega .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#torta_de_nata
+bakery:torta_de_nata rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:hotmilk ,
+bakery:sugar ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#treacle_tart
+bakery:treacle_tart rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:goldensyrup ,
+bakery:lemonzest ,
+bakery:butter ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#tres_leches_cake
+bakery:tres_leches_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:whippedcream ,
+bakery:condensedmilk ,
+bakery:milk ,
+bakery:vanillaessence ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pineapple_upside-down_cake
+bakery:pineapple_upside-down_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:pineapplerings ,
+bakery:brownsugar ,
+bakery:vanillaessence ,
+bakery:eggs ,
+bakery:flour .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vanilla_cupcakes
+bakery:vanilla_cupcakes rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:butter ,
+bakery:icingsugar ,
+bakery:vanillaessence ,
+bakery:buttercream ,
+bakery:flour ,
+bakery:eggs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apple_strudel
+bakery:apple_strudel rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:puffpastry ,
+bakery:apples ,
+bakery:cinnamon ,
+bakery:orangezest ,
+bakery:nutmeg ,
+bakery:sultanas ,
+bakery:breadcrumbs .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vinegar_pie
+bakery:vinegar_pie rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggyolks ,
+bakery:eggwhites ,
+bakery:lemonjuice ,
+bakery:vinegar ,
+bakery:flour ,
+bakery:butter .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vanilla_wafer_cake
+bakery:vanilla_wafer_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:shreddedcoconut ,
+bakery:flour ,
+bakery:milk ,
+bakery:eggs ,
+bakery:sugar ,
+bakery:choppedpecans ,
+bakery:vanillaessence .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#walnut_cake
+bakery:walnut_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:walnuthalves ,
+bakery:eggs ,
+bakery:butter ,
+bakery:flour ,
+bakery:sugar ,
+bakery:choppedwalnuts ,
+bakery:vanillaessence ,
+bakery:icingsugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#white_sugar_sponge_cake
+bakery:white_sugar_sponge_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:riceflour ,
+bakery:whitesugar ,
+bakery:bakersyeast .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#yule_log
+bakery:yule_log rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggyolks ,
+bakery:eggwhites ,
+bakery:cocoapowder ,
+bakery:vanillaessence ,
+bakery:chocolate .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#zabaione
+bakery:zabaione rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:eggyolks ,
+bakery:Marsalawine ,
+bakery:whitesugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#mille_feuille_vanilla_cake
+bakery:mille_feuille_vanilla_cake rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:puffpastry ,
+bakery:eggyolks ,
+bakery:vanillaessence ,
+bakery:cream ,
+bakery:icingsugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#raspberry_mille-feuille
+bakery:raspberry_mille-feuille rdf:type owl:NamedIndividual ,
+ bakery:Dessert ;
+bakery:contains bakery:raspberries ,
+bakery:puffpastry ,
+bakery:eggyolks ,
+bakery:cream ,
+bakery:icingsugar .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#currants
+bakery:currants rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bananas
+bakery:bananas rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vanillaessence
+bakery:vanillaessence rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cherryliqueur
+bakery:cherryliqueur rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ryeflour
+bakery:ryeflour rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peaches
+bakery:peaches rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crumbs
+bakery:crumbs rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#wafers
+bakery:wafers rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#milk
+bakery:milk rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#blueberries
+bakery:blueberries rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemonjuice
+bakery:lemonjuice rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolatebuttons
+bakery:chocolatebuttons rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#condensedmilk
+bakery:condensedmilk rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sugar
+bakery:sugar rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#starchsyrup
+bakery:starchsyrup rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cherries
+bakery:cherries rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#noflour
+bakery:noflour rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cocoapowder
+bakery:cocoapowder rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#goldensyrup
+bakery:goldensyrup rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#toffee
+bakery:toffee rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peanuts
+bakery:peanuts rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pecans
+bakery:pecans rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#flour
+bakery:flour rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#mascarponecheese
+bakery:mascarponecheese rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sesameseeds
+bakery:sesameseeds rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#marzipan
+bakery:marzipan rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#molasses
+bakery:molasses rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolatechips
+bakery:chocolatechips rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chouxpastry
+bakery:chouxpastry rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#buttercream
+bakery:buttercream rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#groundcloves
+bakery:groundcloves rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#button
+bakery:button rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#groundginger
+bakery:groundginger rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#nutmeg
+bakery:nutmeg rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#meringue
+bakery:meringue rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ricottacheese
+bakery:ricottacheese rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#shreddedcoconut
+bakery:shreddedcoconut rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sultanas
+bakery:sultanas rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#shreddedcarrots
+bakery:shreddedcarrots rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pineapplerings
+bakery:pineapplerings rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sponge
+bakery:sponge rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almonds
+bakery:almonds rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#citrusoil
+bakery:citrusoil rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#minimarshmallows
+bakery:minimarshmallows rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almondessence
+bakery:almondessence rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#groundnutmeg
+bakery:groundnutmeg rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#icecream
+bakery:icecream rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pandanleaves
+bakery:pandanleaves rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lard
+bakery:lard rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#biscuitcrumbs
+bakery:biscuitcrumbs rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#toastednuts
+bakery:toastednuts rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolatefondant
+bakery:chocolatefondant rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Marsalawine
+bakery:Marsalawine rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#carawayseeds
+bakery:carawayseeds rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rum
+bakery:rum rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coffeepowder
+bakery:coffeepowder rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#RiceKrispies
+bakery:RiceKrispies rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cornstarch
+bakery:cornstarch rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almondpaste
+bakery:almondpaste rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#beetrootjuice
+bakery:beetrootjuice rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vanillaicecream
+bakery:vanillaicecream rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#spongefingers
+bakery:spongefingers rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#raspberries
+bakery:raspberries rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#brownsugar
+bakery:brownsugar rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#whippedcream
+bakery:whippedcream rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#choppedwalnuts
+bakery:choppedwalnuts rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#eggwhites
+bakery:eggwhites rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cinnamon
+bakery:cinnamon rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#breadcrumbs
+bakery:breadcrumbs rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#puffpastry
+bakery:puffpastry rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GrandMarnier
+bakery:GrandMarnier rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#walnuthalves
+bakery:walnuthalves rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#whitesugar
+bakery:whitesugar rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#kirsch
+bakery:kirsch rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bakersyeast
+bakery:bakersyeast rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#liqueur
+bakery:liqueur rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#orangejuice
+bakery:orangejuice rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#custard
+bakery:custard rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#freshmint
+bakery:freshmint rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vinegar
+bakery:vinegar rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pears
+bakery:pears rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#buttermilk
+bakery:buttermilk rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jam
+bakery:jam rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#breadslices
+bakery:breadslices rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#driedcranberries
+bakery:driedcranberries rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#butter
+bakery:butter rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#creamcheese
+bakery:creamcheese rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#whiterice
+bakery:whiterice rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#raisins
+bakery:raisins rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cornflour
+bakery:cornflour rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#riceflour
+bakery:riceflour rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate
+bakery:chocolate rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#strawberries
+bakery:strawberries rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#eggyolks
+bakery:eggyolks rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolateganache
+bakery:chocolateganache rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#orangezest
+bakery:orangezest rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apples
+bakery:apples rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pumpkin
+bakery:pumpkin rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crushedpineapple
+bakery:crushedpineapple rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#darkchocolate
+bakery:darkchocolate rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Nutella
+bakery:Nutella rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#honey
+bakery:honey rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cornflakes
+bakery:cornflakes rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hottea
+bakery:hottea rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#marshmallowfluff
+bakery:marshmallowfluff rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#saltines
+bakery:saltines rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cream
+bakery:cream rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#liquorestrega
+bakery:liquorestrega rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coconutmilk
+bakery:coconutmilk rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apricotjam
+bakery:apricotjam rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hazelnuts
+bakery:hazelnuts rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vegetableoil
+bakery:vegetableoil rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peanutbutter
+bakery:peanutbutter rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolatesauce
+bakery:chocolatesauce rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#eggs
+bakery:eggs rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coolwhip
+bakery:coolwhip rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gelatin
+bakery:gelatin rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#brandy
+bakery:brandy rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hotmilk
+bakery:hotmilk rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bakingpowder
+bakery:bakingpowder rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemonzest
+bakery:lemonzest rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#icingsugar
+bakery:icingsugar rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolatecurls
+bakery:chocolatecurls rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#driedcherries
+bakery:driedcherries rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolatecookiecrumbs
+bakery:chocolatecookiecrumbs rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#groundalmonds
+bakery:groundalmonds rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#choppedpecans
+bakery:choppedpecans rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#heavycream
+bakery:heavycream rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#groundhazelnuts
+bakery:groundhazelnuts rdf:type owl:NamedIndividual ,
+bakery:Ingredient .
+
