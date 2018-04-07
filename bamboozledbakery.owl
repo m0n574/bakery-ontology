@@ -95,6 +95,11 @@ bakery:Animal rdf:type owl:Class ;
               rdfs:subClassOf bakery:Ingredient .
 
 
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#AnimalByProduct
+bakery:AnimalByProduct rdf:type owl:Class ;
+                       rdfs:subClassOf bakery:Animal .
+
+
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_Charlotte
 bakery:Apple_Charlotte rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
@@ -5719,6 +5724,21 @@ bakery:Vegetable rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Ingredient .
 
 
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VegetarianFriendly
+bakery:VegetarianFriendly rdf:type owl:Class ;
+                          owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                     [ rdf:type owl:Class ;
+                                                                       owl:complementOf [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty bakery:hasIngredient ;
+                                                                                          owl:someValuesFrom bakery:AnimalByProduct
+                                                                                        ]
+                                                                     ]
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] ;
+                          rdfs:subClassOf bakery:Dessert .
+
+
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vinegar_pie
 bakery:Vinegar_pie rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
@@ -6186,7 +6206,8 @@ bakery:fresh_mint rdf:type owl:Class ;
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gelatin
 bakery:gelatin rdf:type owl:Class ;
-               rdfs:subClassOf bakery:Animal .
+               rdfs:subClassOf bakery:AnimalByProduct ;
+               owl:disjointWith bakery:lard .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#golden_syrup
@@ -6271,7 +6292,7 @@ bakery:kirsch rdf:type owl:Class ;
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lard
 bakery:lard rdf:type owl:Class ;
-            rdfs:subClassOf bakery:Animal .
+            rdfs:subClassOf bakery:AnimalByProduct .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_juice
@@ -6565,11 +6586,10 @@ bakery:white_sugar rdf:type owl:Class ;
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( bakery:Dairy
+  owl:members ( bakery:AnimalByProduct
+                bakery:Dairy
                 bakery:Egg
-                bakery:gelatin
                 bakery:honey
-                bakery:lard
               )
 ] .
 
@@ -6776,14 +6796,6 @@ bakery:white_sugar rdf:type owl:Class ;
   owl:members ( bakery:flour
                 bakery:rice_krispies
                 bakery:rye_flour
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( bakery:gelatin
-                bakery:honey
-                bakery:lard
               )
 ] .
 
