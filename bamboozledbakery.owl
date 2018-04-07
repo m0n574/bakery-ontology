@@ -3759,6 +3759,102 @@ bakery:NonDairy rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Ingredient .
 
 
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonDiabetic
+bakery:NonDiabetic rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                              [ rdf:type owl:Class ;
+                                                                owl:complementOf bakery:DiabeticFriendly
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonEggAllergy
+bakery:NonEggAllergy rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                [ rdf:type owl:Class ;
+                                                                  owl:complementOf bakery:EggAllergyFriendly
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonGluten
+bakery:NonGluten rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                            [ rdf:type owl:Class ;
+                                                              owl:complementOf bakery:GlutenFriendly
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonLactose
+bakery:NonLactose rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                             [ rdf:type owl:Class ;
+                                                               owl:complementOf bakery:LactoseFriendly
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                  rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonNutAllergy
+bakery:NonNutAllergy rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                [ rdf:type owl:Class ;
+                                                                  owl:complementOf bakery:NutAllergyFriendly
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonTeetotaller
+bakery:NonTeetotaller rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                 [ rdf:type owl:Class ;
+                                                                   owl:complementOf bakery:TeetotallerFriendly
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                      rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonVegan
+bakery:NonVegan rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                           [ rdf:type owl:Class ;
+                                                             owl:complementOf bakery:VeganFriendly
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonVegetarian
+bakery:NonVegetarian rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                [ rdf:type owl:Class ;
+                                                                  owl:complementOf bakery:VegetarianFriendly
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf bakery:Dessert .
+
+
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NutAllergyFriendly
 bakery:NutAllergyFriendly rdf:type owl:Class ;
                           owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
