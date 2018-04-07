@@ -1756,6 +1756,19 @@ bakery:Coffee_cake rdf:type owl:Class ;
                                    ] .
 
 
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ComplexDessert
+bakery:ComplexDessert rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty bakery:hasIngredient ;
+                                                                   owl:minCardinality "6"^^xsd:nonNegativeInteger
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                      rdfs:subClassOf bakery:Dessert .
+
+
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cracker_cake
 bakery:Cracker_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
