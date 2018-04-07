@@ -1996,6 +1996,21 @@ bakery:Devils_food_cake rdf:type owl:Class ;
                                         ] .
 
 
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#DiabeticFriendly
+bakery:DiabeticFriendly rdf:type owl:Class ;
+                        owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                   [ rdf:type owl:Class ;
+                                                                     owl:complementOf [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty bakery:hasIngredient ;
+                                                                                        owl:someValuesFrom bakery:Sugar
+                                                                                      ]
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ] ;
+                        rdfs:subClassOf bakery:Dessert .
+
+
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Double_chocolate_muffins
 bakery:Double_chocolate_muffins rdf:type owl:Class ;
                                 rdfs:subClassOf bakery:Dessert ,
@@ -2142,6 +2157,21 @@ bakery:Eccles_cakes rdf:type owl:Class ;
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Egg
 bakery:Egg rdf:type owl:Class ;
            rdfs:subClassOf bakery:Animal .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#EggAllergyFriendly
+bakery:EggAllergyFriendly rdf:type owl:Class ;
+                          owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                                     [ rdf:type owl:Class ;
+                                                                       owl:complementOf [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty bakery:hasIngredient ;
+                                                                                          owl:someValuesFrom bakery:Egg
+                                                                                        ]
+                                                                     ]
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] ;
+                          rdfs:subClassOf bakery:Dessert .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Flavouring
@@ -5126,21 +5156,6 @@ bakery:Sugar rdf:type owl:Class ;
 bakery:SugarAnimal rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Sugar ;
                    owl:disjointWith bakery:SugarPlant .
-
-
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#SugarFriendly
-bakery:SugarFriendly rdf:type owl:Class ;
-                     owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
-                                                                [ rdf:type owl:Class ;
-                                                                  owl:complementOf [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty bakery:hasIngredient ;
-                                                                                     owl:someValuesFrom bakery:Sugar
-                                                                                   ]
-                                                                ]
-                                                              ) ;
-                                           rdf:type owl:Class
-                                         ] ;
-                     rdfs:subClassOf bakery:Dessert .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#SugarPlant
