@@ -6137,7 +6137,7 @@ bakery:fresh_mint rdf:type owl:Class ;
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gelatin
 bakery:gelatin rdf:type owl:Class ;
-               rdfs:subClassOf bakery:Other .
+               rdfs:subClassOf bakery:Animal .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#golden_syrup
@@ -6222,7 +6222,7 @@ bakery:kirsch rdf:type owl:Class ;
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lard
 bakery:lard rdf:type owl:Class ;
-            rdfs:subClassOf bakery:Other .
+            rdfs:subClassOf bakery:Animal .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_juice
@@ -6472,7 +6472,7 @@ bakery:vinegar rdf:type owl:Class ;
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#wafers
 bakery:wafers rdf:type owl:Class ;
-              rdfs:subClassOf bakery:Other .
+              rdfs:subClassOf bakery:Gluten .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#walnut_halves
@@ -6518,17 +6518,9 @@ bakery:white_sugar rdf:type owl:Class ;
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( bakery:Alcohol
-                bakery:Animal
-                bakery:Flavouring
-                bakery:Fruit
-                bakery:Gluten
-                bakery:NonDairy
-                bakery:Nuts
-                bakery:Other
-                bakery:Spice
-                bakery:Sugar
-                bakery:Vegetable
+  owl:members ( bakery:Dairy
+                bakery:Egg
+                bakery:honey
               )
 ] .
 
@@ -6590,39 +6582,12 @@ bakery:white_sugar rdf:type owl:Class ;
                 bakery:cornflour
                 bakery:cornstarch
                 bakery:fresh_mint
-                bakery:gelatin
                 bakery:hot_tea
-                bakery:lard
                 bakery:no_flour
                 bakery:pandan_leaves
                 bakery:rice_flour
                 bakery:sesame_seeds
                 bakery:vinegar
-                bakery:wafers
-                bakery:white_rice
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( bakery:bakers_yeast
-                bakery:baking_powder
-                bakery:button
-                bakery:caraway_seeds
-                bakery:citrus_oil
-                bakery:coffee_powder
-                bakery:corn_flakes
-                bakery:cornflour
-                bakery:cornstarch
-                bakery:fresh_mint
-                bakery:gelatin
-                bakery:hot_tea
-                bakery:lard
-                bakery:no_flour
-                bakery:pandan_leaves
-                bakery:sesame_seeds
-                bakery:vinegar
-                bakery:wafers
                 bakery:white_rice
               )
 ] .
@@ -6650,6 +6615,24 @@ bakery:white_sugar rdf:type owl:Class ;
                 bakery:saltines
                 bakery:sponge
                 bakery:sponge_fingers
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( bakery:biscuit_crumbs
+                bakery:bread_slices
+                bakery:breadcrumbs
+                bakery:choux_pastry
+                bakery:crumbs
+                bakery:flour
+                bakery:puff_pastry
+                bakery:rice_krispies
+                bakery:rye_flour
+                bakery:saltines
+                bakery:sponge
+                bakery:sponge_fingers
+                bakery:wafers
               )
 ] .
 
@@ -6729,6 +6712,14 @@ bakery:white_sugar rdf:type owl:Class ;
                 bakery:egg_yolks
                 bakery:eggs
                 bakery:meringue
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( bakery:gelatin
+                bakery:honey
+                bakery:lard
               )
 ] .
 
