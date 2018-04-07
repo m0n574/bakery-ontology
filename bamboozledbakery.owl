@@ -1761,7 +1761,7 @@ bakery:ComplexDessert rdf:type owl:Class ;
                       owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                  [ rdf:type owl:Restriction ;
                                                                    owl:onProperty bakery:hasIngredient ;
-                                                                   owl:minCardinality "6"^^xsd:nonNegativeInteger
+                                                                   owl:minCardinality "7"^^xsd:nonNegativeInteger
                                                                  ]
                                                                ) ;
                                             rdf:type owl:Class
@@ -5086,6 +5086,19 @@ bakery:Spice_cake rdf:type owl:Class ;
                                   ] .
 
 
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#SpicyDessert
+bakery:SpicyDessert rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty bakery:hasIngredient ;
+                                                                 owl:someValuesFrom bakery:Spice
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:subClassOf bakery:Dessert .
+
+
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sponge_cake
 bakery:Sponge_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
@@ -5826,6 +5839,23 @@ bakery:VeganFriendly rdf:type owl:Class ;
                                            rdf:type owl:Class
                                          ] ;
                      rdfs:subClassOf bakery:Dessert .
+
+
+###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VeganIngredient
+bakery:VeganIngredient rdf:type owl:Class ;
+                       owl:equivalentClass [ owl:intersectionOf ( bakery:Ingredient
+                                                                  [ rdf:type owl:Class ;
+                                                                    owl:complementOf [ rdf:type owl:Class ;
+                                                                                       owl:unionOf ( bakery:Animal
+                                                                                                     bakery:GlutenAnimal
+                                                                                                     bakery:SugarAnimal
+                                                                                                   )
+                                                                                     ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] ;
+                       rdfs:subClassOf bakery:Ingredient .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vegetable
