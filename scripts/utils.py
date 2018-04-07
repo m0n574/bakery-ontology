@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# David Morton 2018
+# Knowledge-Based Techniques for Industrial Systems, UCD
+
 
 #import the CSV module for dealing with CSV files
 import csv
@@ -9,7 +12,7 @@ ifile = open('data.csv', 'rb')
 reader = csv.reader(ifile)
 
 #create a new variable called 'outfile' (could be any name), which we'll use to create a new file that we'll pass our TTL into.
-outfile = open('data.ttl', 'a')
+outfile = open('data.ttl', 'w')
 
 uri = '###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#'
 
@@ -27,30 +30,44 @@ for row in reader:
 		# dessert block
 		dessert = c[0].replace(' ','_')
 		dessert = dessert.replace("'", '')
-		dessert = dessert.lower()
-		dessertBlock = ''
+		#dessert = dessert.lower()
 		dessertBlock = uri + dessert + '\n'
-		dessertBlock += 'bakery:' + dessert + ' rdf:type owl:NamedIndividual ,\n bakery:Dessert ;\nbakery:contains '
+		
+		# add Dessert name
+		dessertBlock += 'bakery:' + dessert + ' rdf:type owl:Class ;\nrdfs:subClassOf bakery:Dessert ,\n'
+
+		
 		
 		# add ingredients
-		ingredientsStr = ''
+		ingredientsRestirctions = ''
+		unionIngredients = ''
 		count = 0
 		dessertIngredientList = c[1].split(',')
 		for ingredient in dessertIngredientList:
-			ingredient = ingredient.replace(' ','')
+			ingredient = ingredient.lstrip(' ')
+			ingredient = ingredient.rstrip(' ')
+			ingredient = ingredient.replace(' ','_')
 			ingredient = ingredient.replace("'",'')
+			ingredient = ingredient.lower()
 
 			# add ingredient to set
 			allIngredientsSet.add(ingredient)
 
-			ingredientsStr += 'bakery:' + ingredient
+			# add restrictions
+			ingredientsRestirctions += '[ rdf:type owl:Restriction ;\n owl:onProperty bakery:hasIngredient ;\n owl:someValuesFrom bakery:' + ingredient + '] ,\n'
+
+			# add unions
+			unionIngredients += 'bakery:' + ingredient + '\n'
 			count += 1
 			if len(dessertIngredientList) != count:
-				ingredientsStr += ' ,\n'
-			else:
-				ingredientsStr += ' .\n'			
+				ingredientsRestirctions += '\n'			
 
-		dessertBlock += ingredientsStr + '\n'
+		# add each ingredient restriction
+
+		dessertBlock += ingredientsRestirctions
+
+		# add final union of
+		dessertBlock += ' [ rdf:type owl:Restriction ;\n owl:onProperty bakery:hasIngredient ;\n owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  ' + unionIngredients + ' )]] .\n'
 
 		result = dessertBlock
 
@@ -60,7 +77,7 @@ for row in reader:
 
 # output all ingredients to file
 for ingredient in allIngredientsSet:
-	ingredientBlock = uri + ingredient + '\n' + 'bakery:' + ingredient + ' rdf:type owl:NamedIndividual ,\nbakery:Ingredient .\n\n'
+	ingredientBlock = uri + ingredient + '\n' + 'bakery:' + ingredient + ' rdf:type owl:Class , bakery:Ingredient .\n\n'
 	outfile.write(ingredientBlock)
 		
 
