@@ -27,7 +27,8 @@ bakery:eggs
 bakery:milk
 bakery:sugar
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Almond_tart"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Almond_tart"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Angel_food_cake
 bakery:Angel_food_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -47,7 +48,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:egg_whites
 bakery:sponge
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Angel_food_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Angel_food_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_brown_betty
 bakery:Apple_brown_betty rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -72,7 +74,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:crumbs
 bakery:butter
 bakery:brown_sugar
- )]] .
+ )]] ;
+rdfs:label "Apple_brown_betty"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Apple_brown_betty"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_Charlotte
 bakery:Apple_Charlotte rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -97,7 +100,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:sugar
 bakery:butter
 bakery:bread_slices
- )]] .
+ )]] ;
+rdfs:label "Apple_Charlotte"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Apple_Charlotte"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_crumble
 bakery:Apple_crumble rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -122,7 +126,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:flour
 bakery:sugar
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Apple_crumble"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Apple_crumble"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Banana_muffins
 bakery:Banana_muffins rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -152,7 +157,8 @@ bakery:flour
 bakery:eggs
 bakery:milk
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Banana_muffins"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Banana_muffins"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Banoffee_pie
 bakery:Banoffee_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -177,7 +183,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:cream
 bakery:toffee
 bakery:biscuit_crumbs
- )]] .
+ )]] ;
+rdfs:label "Banoffee_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Banoffee_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Battenberg_cake
 bakery:Battenberg_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -197,7 +204,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:sponge
 bakery:jam
 bakery:marzipan
- )]] .
+ )]] ;
+rdfs:label "Battenberg_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Battenberg_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Belgian_waffles
 bakery:Belgian_waffles rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -227,7 +235,8 @@ bakery:milk
 bakery:flour
 bakery:sugar
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Belgian_waffles"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Belgian_waffles"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Biscotti_Regina
 bakery:Biscotti_Regina rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -257,7 +266,8 @@ bakery:orange_zest
 bakery:flour
 bakery:eggs
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Biscotti_Regina"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Biscotti_Regina"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Biscuit_Tortoni
 bakery:Biscuit_Tortoni rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -282,7 +292,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:almonds
 bakery:chocolate_chips
 bakery:rum
- )]] .
+ )]] ;
+rdfs:label "Biscuit_Tortoni"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Biscuit_Tortoni"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Black_Forest_gateau
 bakery:Black_Forest_gateau rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -322,7 +333,8 @@ bakery:flour
 bakery:whipped_cream
 bakery:kirsch
 bakery:chocolate_curls
- )]] .
+ )]] ;
+rdfs:label "Black_Forest_gateau"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Black_Forest_gateau"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Blueberry_pie
 bakery:Blueberry_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -352,7 +364,8 @@ bakery:butter
 bakery:milk
 bakery:sugar
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Blueberry_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Blueberry_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Boston_cream_pie
 bakery:Boston_cream_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -382,7 +395,8 @@ bakery:buttermilk
 bakery:flour
 bakery:button
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Boston_cream_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Boston_cream_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Bread_and_butter_pudding
 bakery:Bread_and_butter_pudding rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -417,7 +431,8 @@ bakery:butter
 bakery:milk
 bakery:eggs
 bakery:cinnamon
- )]] .
+ )]] ;
+rdfs:label "Bread_and_butter_pudding"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Bread_and_butter_pudding"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Bundt_cake
 bakery:Bundt_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -447,7 +462,8 @@ bakery:milk
 bakery:flour
 bakery:sugar
 bakery:lemon_zest
- )]] .
+ )]] ;
+rdfs:label "Bundt_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Bundt_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Butterkuchen
 bakery:Butterkuchen rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -472,7 +488,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:butter
 bakery:flour
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Butterkuchen"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Butterkuchen"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Butterscotch_pie
 bakery:Butterscotch_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -497,7 +514,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:egg_yolks
 bakery:cornstarch
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Butterscotch_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Butterscotch_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cake_pops
 bakery:Cake_pops rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -522,7 +540,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:butter
 bakery:flour
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Cake_pops"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Cake_pops"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Capuccino_chocolate_muffins
 bakery:Capuccino_chocolate_muffins rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -552,7 +571,8 @@ bakery:eggs
 bakery:butter
 bakery:flour
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Capuccino_chocolate_muffins"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Capuccino_chocolate_muffins"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Caraway_seed_cake
 bakery:Caraway_seed_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -582,7 +602,8 @@ bakery:eggs
 bakery:butter
 bakery:flour
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Caraway_seed_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Caraway_seed_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Carrot_cake
 bakery:Carrot_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -622,7 +643,8 @@ bakery:cinnamon
 bakery:nutmeg
 bakery:flour
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Carrot_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Carrot_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cassata_cake
 bakery:Cassata_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -657,7 +679,8 @@ bakery:butter
 bakery:flour
 bakery:citrus_oil
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Cassata_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Cassata_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Castella_cake
 bakery:Castella_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -682,7 +705,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:flour
 bakery:eggs
 bakery:starch_syrup
- )]] .
+ )]] ;
+rdfs:label "Castella_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Castella_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chantilly_cake
 bakery:Chantilly_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -707,7 +731,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:flour
 bakery:butter
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Chantilly_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chantilly_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chelsea_buns
 bakery:Chelsea_buns rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -742,7 +767,8 @@ bakery:eggs
 bakery:starch_syrup
 bakery:sultanas
 bakery:raisins
- )]] .
+ )]] ;
+rdfs:label "Chelsea_buns"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chelsea_buns"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cherries_Jubilee
 bakery:Cherries_Jubilee rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -762,7 +788,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:cherries
 bakery:cherry_liqueur
 bakery:vanilla_ice_cream
- )]] .
+ )]] ;
+rdfs:label "Cherries_Jubilee"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Cherries_Jubilee"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cherry_pie
 bakery:Cherry_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -787,7 +814,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:butter
 bakery:sugar
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Cherry_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Cherry_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chiffon_cake
 bakery:Chiffon_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -817,7 +845,8 @@ bakery:eggs
 bakery:sugar
 bakery:flour
 bakery:icing_sugar
- )]] .
+ )]] ;
+rdfs:label "Chiffon_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chiffon_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_bombe
 bakery:Chocolate_bombe rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -852,7 +881,8 @@ bakery:flour
 bakery:vanilla_essence
 bakery:heavy_cream
 bakery:chocolate
- )]] .
+ )]] ;
+rdfs:label "Chocolate_bombe"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_bombe"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_brownies
 bakery:Chocolate_brownies rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -887,7 +917,8 @@ bakery:flour
 bakery:eggs
 bakery:sugar
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Chocolate_brownies"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_brownies"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_chip_cookies
 bakery:Chocolate_chip_cookies rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -922,7 +953,8 @@ bakery:flour
 bakery:eggs
 bakery:sugar
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Chocolate_chip_cookies"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_chip_cookies"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_chip_scones
 bakery:Chocolate_chip_scones rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -962,7 +994,8 @@ bakery:eggs
 bakery:sugar
 bakery:milk
 bakery:baking_powder
- )]] .
+ )]] ;
+rdfs:label "Chocolate_chip_scones"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_chip_scones"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_eclairs
 bakery:Chocolate_eclairs rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -982,7 +1015,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:choux_pastry
 bakery:chocolate_fondant
 bakery:heavy_cream
- )]] .
+ )]] ;
+rdfs:label "Chocolate_eclairs"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_eclairs"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_fudge_cake
 bakery:Chocolate_fudge_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1012,7 +1046,8 @@ bakery:cocoa_powder
 bakery:flour
 bakery:eggs
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Chocolate_fudge_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_fudge_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_ganache_cake
 bakery:Chocolate_ganache_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1042,7 +1077,8 @@ bakery:cocoa_powder
 bakery:flour
 bakery:eggs
 bakery:chocolate_ganache
- )]] .
+ )]] ;
+rdfs:label "Chocolate_ganache_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_ganache_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_lava_cake
 bakery:Chocolate_lava_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1072,7 +1108,8 @@ bakery:chocolate
 bakery:cocoa_powder
 bakery:egg_yolks
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Chocolate_lava_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_lava_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_mousse
 bakery:Chocolate_mousse rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1107,7 +1144,8 @@ bakery:orange_zest
 bakery:egg_yolks
 bakery:egg_whites
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Chocolate_mousse"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_mousse"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_pralines
 bakery:Chocolate_pralines rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1142,7 +1180,8 @@ bakery:chocolate
 bakery:sugar
 bakery:pecans
 bakery:cream
- )]] .
+ )]] ;
+rdfs:label "Chocolate_pralines"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_pralines"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_truffles
 bakery:Chocolate_truffles rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1167,7 +1206,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:cocoa_powder
 bakery:toasted_nuts
 bakery:heavy_cream
- )]] .
+ )]] ;
+rdfs:label "Chocolate_truffles"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_truffles"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Christmas_fruitcake
 bakery:Christmas_fruitcake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1222,7 +1262,8 @@ bakery:eggs
 bakery:milk
 bakery:sugar
 bakery:nutmeg
- )]] .
+ )]] ;
+rdfs:label "Christmas_fruitcake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Christmas_fruitcake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cinnamon_rolls
 bakery:Cinnamon_rolls rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1247,7 +1288,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:cinnamon
 bakery:sugar
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Cinnamon_rolls"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Cinnamon_rolls"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Coconut_cake
 bakery:Coconut_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1277,7 +1319,8 @@ bakery:flour
 bakery:milk
 bakery:eggs
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Coconut_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Coconut_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Coconut_Macaroons
 bakery:Coconut_Macaroons rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1302,7 +1345,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:condensed_milk
 bakery:egg_whites
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Coconut_Macaroons"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Coconut_Macaroons"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Coffee_cake
 bakery:Coffee_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1332,7 +1376,8 @@ bakery:flour
 bakery:milk
 bakery:sugar
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Coffee_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Coffee_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cracker_cake
 bakery:Cracker_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1357,7 +1402,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:blueberries
 bakery:cool_whip
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Cracker_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Cracker_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Crème_brûlée
 bakery:Crème_brûlée rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1382,7 +1428,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:eggs
 bakery:milk
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Crème_brûlée"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Crème_brûlée"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Crepes_Suzette
 bakery:Crepes_Suzette rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1422,7 +1469,8 @@ bakery:milk
 bakery:orange_juice
 bakery:orange_zest
 bakery:grand_marnier
- )]] .
+ )]] ;
+rdfs:label "Crepes_Suzette"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Crepes_Suzette"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Crumb_cake
 bakery:Crumb_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1452,7 +1500,8 @@ bakery:brown_sugar
 bakery:butter
 bakery:flour
 bakery:cinnamon
- )]] .
+ )]] ;
+rdfs:label "Crumb_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Crumb_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Custard_tarts
 bakery:Custard_tarts rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1487,7 +1536,8 @@ bakery:flour
 bakery:sugar
 bakery:egg_yolks
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Custard_tarts"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Custard_tarts"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Devils_food_cake
 bakery:Devils_food_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1532,7 +1582,8 @@ bakery:flour
 bakery:chocolate
 bakery:eggs
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Devils_food_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Devils_food_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Double_chocolate_muffins
 bakery:Double_chocolate_muffins rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1572,7 +1623,8 @@ bakery:flour
 bakery:butter
 bakery:milk
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Double_chocolate_muffins"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Double_chocolate_muffins"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Dundee_cake
 bakery:Dundee_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1617,7 +1669,8 @@ bakery:flour
 bakery:butter
 bakery:currants
 bakery:almonds
- )]] .
+ )]] ;
+rdfs:label "Dundee_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Dundee_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Eccles_cakes
 bakery:Eccles_cakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1657,7 +1710,8 @@ bakery:flour
 bakery:cinnamon
 bakery:ground_ginger
 bakery:orange_zest
- )]] .
+ )]] ;
+rdfs:label "Eccles_cakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Eccles_cakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Flourless_chocolate_cake
 bakery:Flourless_chocolate_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1692,7 +1746,8 @@ bakery:cocoa_powder
 bakery:egg_whites
 bakery:egg_yolks
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Flourless_chocolate_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Flourless_chocolate_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Foam_cake
 bakery:Foam_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1717,7 +1772,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:sugar
 bakery:egg_whites
 bakery:baking_powder
- )]] .
+ )]] ;
+rdfs:label "Foam_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Foam_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Fruit_flan
 bakery:Fruit_flan rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1757,7 +1813,8 @@ bakery:heavy_cream
 bakery:blueberries
 bakery:apples
 bakery:bananas
- )]] .
+ )]] ;
+rdfs:label "Fruit_flan"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Fruit_flan"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Fruit_salad
 bakery:Fruit_salad rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1777,7 +1834,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:blueberries
 bakery:apples
 bakery:bananas
- )]] .
+ )]] ;
+rdfs:label "Fruit_salad"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Fruit_salad"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Funnel_cakes
 bakery:Funnel_cakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1812,7 +1870,8 @@ bakery:sugar
 bakery:vegetable_oil
 bakery:baking_powder
 bakery:cinnamon
- )]] .
+ )]] ;
+rdfs:label "Funnel_cakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Funnel_cakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gelato
 bakery:Gelato rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1842,7 +1901,8 @@ bakery:sugar
 bakery:egg_yolks
 bakery:cream
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Gelato"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Gelato"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#German_chocolate_cake
 bakery:German_chocolate_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1887,7 +1947,8 @@ bakery:egg_whites
 bakery:shredded_coconut
 bakery:chopped_pecans
 bakery:buttermilk
- )]] .
+ )]] ;
+rdfs:label "German_chocolate_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "German_chocolate_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gingerbread_house
 bakery:Gingerbread_house rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1912,7 +1973,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:ground_ginger
 bakery:flour
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Gingerbread_house"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Gingerbread_house"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gingerbread_men
 bakery:Gingerbread_men rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1942,7 +2004,8 @@ bakery:ground_ginger
 bakery:flour
 bakery:butter
 bakery:chocolate_buttons
- )]] .
+ )]] ;
+rdfs:label "Gingerbread_men"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Gingerbread_men"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gooey_butter_cake
 bakery:Gooey_butter_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -1977,7 +2040,8 @@ bakery:sugar
 bakery:eggs
 bakery:vanilla_essence
 bakery:cream_cheese
- )]] .
+ )]] ;
+rdfs:label "Gooey_butter_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Gooey_butter_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gugelhupf_cake
 bakery:Gugelhupf_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2017,7 +2081,8 @@ bakery:cocoa_powder
 bakery:flour
 bakery:milk
 bakery:icing_sugar
- )]] .
+ )]] ;
+rdfs:label "Gugelhupf_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Gugelhupf_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Hot_cakes_with_syrup
 bakery:Hot_cakes_with_syrup rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2047,7 +2112,8 @@ bakery:flour
 bakery:sugar
 bakery:baking_powder
 bakery:golden_syrup
- )]] .
+ )]] ;
+rdfs:label "Hot_cakes_with_syrup"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Hot_cakes_with_syrup"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Hot_milk_cake
 bakery:Hot_milk_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2082,7 +2148,8 @@ bakery:flour
 bakery:sugar
 bakery:hot_milk
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Hot_milk_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Hot_milk_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Hummingbird_cake
 bakery:Hummingbird_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2122,7 +2189,8 @@ bakery:eggs
 bakery:vanilla_essence
 bakery:cinnamon
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Hummingbird_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Hummingbird_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ice_cream_cake
 bakery:Ice_cream_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2152,7 +2220,8 @@ bakery:flour
 bakery:eggs
 bakery:sugar
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Ice_cream_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Ice_cream_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ice_cream_sundaes
 bakery:Ice_cream_sundaes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2172,7 +2241,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:ice_cream
 bakery:chocolate_sauce
 bakery:pecans
- )]] .
+ )]] ;
+rdfs:label "Ice_cream_sundaes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Ice_cream_sundaes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jaffa_cakes
 bakery:Jaffa_cakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2212,7 +2282,8 @@ bakery:flour
 bakery:sugar
 bakery:orange_zest
 bakery:gelatin
- )]] .
+ )]] ;
+rdfs:label "Jaffa_cakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Jaffa_cakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jam_rolly_polly
 bakery:Jam_rolly_polly rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2242,7 +2313,8 @@ bakery:flour
 bakery:eggs
 bakery:sugar
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Jam_rolly_polly"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Jam_rolly_polly"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jam_tart
 bakery:Jam_tart rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2272,7 +2344,8 @@ bakery:flour
 bakery:eggs
 bakery:sugar
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Jam_tart"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Jam_tart"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jamaican_rum_cake
 bakery:Jamaican_rum_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2302,7 +2375,8 @@ bakery:ground_ginger
 bakery:flour
 bakery:eggs
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Jamaican_rum_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Jamaican_rum_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jewish_apple_cake
 bakery:Jewish_apple_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2342,7 +2416,8 @@ bakery:cinnamon
 bakery:eggs
 bakery:flour
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Jewish_apple_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Jewish_apple_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Kentucky_jam_cake
 bakery:Kentucky_jam_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2387,7 +2462,8 @@ bakery:eggs
 bakery:butter
 bakery:cinnamon
 bakery:ground_cloves
- )]] .
+ )]] ;
+rdfs:label "Kentucky_jam_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Kentucky_jam_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ladyfinger_biscuits
 bakery:Ladyfinger_biscuits rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2412,7 +2488,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:egg_yolks
 bakery:sugar
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Ladyfinger_biscuits"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Ladyfinger_biscuits"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lamington_cake
 bakery:Lamington_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2442,7 +2519,8 @@ bakery:heavy_cream
 bakery:shredded_coconut
 bakery:flour
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Lamington_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Lamington_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lardy_cake
 bakery:Lardy_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2477,7 +2555,8 @@ bakery:flour
 bakery:milk
 bakery:ground_ginger
 bakery:ground_cloves
- )]] .
+ )]] ;
+rdfs:label "Lardy_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Lardy_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Layer_cake
 bakery:Layer_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2512,7 +2591,8 @@ bakery:flour
 bakery:sugar
 bakery:eggs
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Layer_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Layer_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lemon_citrus_tart
 bakery:Lemon_citrus_tart rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2547,7 +2627,8 @@ bakery:butter
 bakery:flour
 bakery:sugar
 bakery:lemon_juice
- )]] .
+ )]] ;
+rdfs:label "Lemon_citrus_tart"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Lemon_citrus_tart"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lemon_drizzle_cake
 bakery:Lemon_drizzle_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2582,7 +2663,8 @@ bakery:butter
 bakery:flour
 bakery:sugar
 bakery:lemon_juice
- )]] .
+ )]] ;
+rdfs:label "Lemon_drizzle_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Lemon_drizzle_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lemon_meringue_pie
 bakery:Lemon_meringue_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2627,7 +2709,8 @@ bakery:lemon_zest
 bakery:sugar
 bakery:flour
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Lemon_meringue_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Lemon_meringue_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Madeira_cake
 bakery:Madeira_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2652,7 +2735,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:milk
 bakery:sugar
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Madeira_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Madeira_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Madeleines
 bakery:Madeleines rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2687,7 +2771,8 @@ bakery:flour
 bakery:lemon_zest
 bakery:sugar
 bakery:baking_powder
- )]] .
+ )]] ;
+rdfs:label "Madeleines"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Madeleines"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_marble_cake
 bakery:Chocolate_marble_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2717,7 +2802,8 @@ bakery:flour
 bakery:cocoa_powder
 bakery:eggs
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Chocolate_marble_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_marble_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Marzipan_cake
 bakery:Marzipan_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2747,7 +2833,8 @@ bakery:almond_paste
 bakery:ground_almonds
 bakery:sugar
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Marzipan_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Marzipan_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Meringue_cake
 bakery:Meringue_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2777,7 +2864,8 @@ bakery:sugar
 bakery:meringue
 bakery:heavy_cream
 bakery:egg_whites
- )]] .
+ )]] ;
+rdfs:label "Meringue_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Meringue_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Millionaires_shortbread_squares
 bakery:Millionaires_shortbread_squares rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2807,7 +2895,8 @@ bakery:butter
 bakery:golden_syrup
 bakery:dark_chocolate
 bakery:condensed_milk
- )]] .
+ )]] ;
+rdfs:label "Millionaires_shortbread_squares"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Millionaires_shortbread_squares"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Molasses_cake
 bakery:Molasses_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2842,7 +2931,8 @@ bakery:ground_ginger
 bakery:cinnamon
 bakery:flour
 bakery:coffee_powder
- )]] .
+ )]] ;
+rdfs:label "Molasses_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Molasses_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Molten_chocolate_cake
 bakery:Molten_chocolate_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2872,7 +2962,8 @@ bakery:flour
 bakery:eggs
 bakery:butter
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Molten_chocolate_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Molten_chocolate_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Napoleon_cream_slice
 bakery:Napoleon_cream_slice rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2897,7 +2988,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:sugar
 bakery:butter
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Napoleon_cream_slice"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Napoleon_cream_slice"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Neapolitan_ice_cream
 bakery:Neapolitan_ice_cream rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2912,7 +3004,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:onProperty bakery:hasIngredient ;
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:ice_cream
 bakery:wafers
- )]] .
+ )]] ;
+rdfs:label "Neapolitan_ice_cream"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Neapolitan_ice_cream"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#New_York_cheesecake
 bakery:New_York_cheesecake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2942,7 +3035,8 @@ bakery:biscuit_crumbs
 bakery:heavy_cream
 bakery:golden_syrup
 bakery:lemon_zest
- )]] .
+ )]] ;
+rdfs:label "New_York_cheesecake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "New_York_cheesecake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Nutella_pancakes
 bakery:Nutella_pancakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2967,7 +3061,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:eggs
 bakery:flour
 bakery:milk
- )]] .
+ )]] ;
+rdfs:label "Nutella_pancakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Nutella_pancakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pain_dEpices
 bakery:Pain_dEpices rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -2992,7 +3087,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:ground_ginger
 bakery:cinnamon
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Pain_dEpices"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pain_dEpices"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pan_Forte
 bakery:Pan_Forte rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3032,7 +3128,8 @@ bakery:cinnamon
 bakery:orange_zest
 bakery:honey
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Pan_Forte"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pan_Forte"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pandan_cake
 bakery:Pandan_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3062,7 +3159,8 @@ bakery:coconut_milk
 bakery:sugar
 bakery:egg_whites
 bakery:pandan_leaves
- )]] .
+ )]] ;
+rdfs:label "Pandan_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pandan_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Panna_cotta
 bakery:Panna_cotta rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3097,7 +3195,8 @@ bakery:heavy_cream
 bakery:sugar
 bakery:fresh_mint
 bakery:liqueur
- )]] .
+ )]] ;
+rdfs:label "Panna_cotta"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Panna_cotta"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pannetone
 bakery:Pannetone rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3132,7 +3231,8 @@ bakery:butter
 bakery:milk
 bakery:eggs
 bakery:cinnamon
- )]] .
+ )]] ;
+rdfs:label "Pannetone"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pannetone"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pavlova
 bakery:Pavlova rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3157,7 +3257,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:vanilla_essence
 bakery:egg_whites
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Pavlova"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pavlova"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Peach_Melba
 bakery:Peach_Melba rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3182,7 +3283,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:vanilla_essence
 bakery:sugar
 bakery:lemon_juice
- )]] .
+ )]] ;
+rdfs:label "Peach_Melba"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Peach_Melba"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Peanut_butter_cups
 bakery:Peanut_butter_cups rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3202,7 +3304,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:peanut_butter
 bakery:chocolate
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Peanut_butter_cups"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Peanut_butter_cups"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pear_flan
 bakery:Pear_flan rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3232,7 +3335,8 @@ bakery:milk
 bakery:sugar
 bakery:flour
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Pear_flan"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pear_flan"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pecan_pie
 bakery:Pecan_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3257,7 +3361,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:golden_syrup
 bakery:flour
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Pecan_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pecan_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Petit_fours
 bakery:Petit_fours rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3282,7 +3387,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:butter
 bakery:flour
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Petit_fours"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Petit_fours"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Poire_belle_Helene
 bakery:Poire_belle_Helene rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3317,7 +3423,8 @@ bakery:lemon_juice
 bakery:vanilla_essence
 bakery:chocolate
 bakery:heavy_cream
- )]] .
+ )]] ;
+rdfs:label "Poire_belle_Helene"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Poire_belle_Helene"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pound_cake
 bakery:Pound_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3347,7 +3454,8 @@ bakery:sugar
 bakery:eggs
 bakery:flour
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Pound_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pound_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Prinzregententorte
 bakery:Prinzregententorte rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3382,7 +3490,8 @@ bakery:apricot_jam
 bakery:flour
 bakery:eggs
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Prinzregententorte"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Prinzregententorte"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Profiteroles_and_chocolate_sauce
 bakery:Profiteroles_and_chocolate_sauce rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3412,7 +3521,8 @@ bakery:eggs
 bakery:butter
 bakery:heavy_cream
 bakery:chocolate
- )]] .
+ )]] ;
+rdfs:label "Profiteroles_and_chocolate_sauce"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Profiteroles_and_chocolate_sauce"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pumpkin_pie
 bakery:Pumpkin_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3442,7 +3552,8 @@ bakery:cinnamon
 bakery:eggs
 bakery:milk
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Pumpkin_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pumpkin_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Punschkrapfen
 bakery:Punschkrapfen rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3477,7 +3588,8 @@ bakery:apricot_jam
 bakery:chocolate
 bakery:butter
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Punschkrapfen"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Punschkrapfen"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Red_velvet_cake
 bakery:Red_velvet_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3512,7 +3624,8 @@ bakery:beetroot_juice
 bakery:eggs
 bakery:vanilla_essence
 bakery:sugar
- )]] .
+ )]] ;
+rdfs:label "Red_velvet_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Red_velvet_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rice_Krispie_cakes
 bakery:Rice_Krispie_cakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3527,7 +3640,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:onProperty bakery:hasIngredient ;
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:rice_krispies
 bakery:chocolate
- )]] .
+ )]] ;
+rdfs:label "Rice_Krispie_cakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Rice_Krispie_cakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rice_pudding
 bakery:Rice_pudding rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3552,7 +3666,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:milk
 bakery:sugar
 bakery:cinnamon
- )]] .
+ )]] ;
+rdfs:label "Rice_pudding"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Rice_pudding"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rock_cakes
 bakery:Rock_cakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3582,7 +3697,8 @@ bakery:milk
 bakery:sugar
 bakery:eggs
 bakery:raisins
- )]] .
+ )]] ;
+rdfs:label "Rock_cakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Rock_cakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rocky_road
 bakery:Rocky_road rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3612,7 +3728,8 @@ bakery:golden_syrup
 bakery:cocoa_powder
 bakery:mini_marshmallows
 bakery:biscuit_crumbs
- )]] .
+ )]] ;
+rdfs:label "Rocky_road"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Rocky_road"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rum_baba
 bakery:Rum_baba rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3642,7 +3759,8 @@ bakery:butter
 bakery:rum
 bakery:heavy_cream
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Rum_baba"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Rum_baba"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rum_cake
 bakery:Rum_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3672,7 +3790,8 @@ bakery:eggs
 bakery:flour
 bakery:butter
 bakery:chopped_walnuts
- )]] .
+ )]] ;
+rdfs:label "Rum_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Rum_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sachertorte
 bakery:Sachertorte rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3702,7 +3821,8 @@ bakery:chocolate
 bakery:ground_almonds
 bakery:flour
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Sachertorte"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Sachertorte"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sesame_seed_cake
 bakery:Sesame_seed_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3727,7 +3847,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:sugar
 bakery:eggs
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Sesame_seed_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Sesame_seed_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Shoofly_pie
 bakery:Shoofly_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3762,7 +3883,8 @@ bakery:lard
 bakery:flour
 bakery:vanilla_essence
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Shoofly_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Shoofly_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Simnel_cake
 bakery:Simnel_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3802,7 +3924,8 @@ bakery:sultanas
 bakery:orange_zest
 bakery:marzipan
 bakery:apricot_jam
- )]] .
+ )]] ;
+rdfs:label "Simnel_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Simnel_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Snickers_cake
 bakery:Snickers_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3832,7 +3955,8 @@ bakery:marshmallow_fluff
 bakery:peanut_butter
 bakery:condensed_milk
 bakery:heavy_cream
- )]] .
+ )]] ;
+rdfs:label "Snickers_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Snickers_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Spice_cake
 bakery:Spice_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3872,7 +3996,8 @@ bakery:flour
 bakery:eggs
 bakery:milk
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Spice_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Spice_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sponge_cake
 bakery:Sponge_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3902,7 +4027,8 @@ bakery:eggs
 bakery:flour
 bakery:sugar
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Sponge_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Sponge_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Stollen_cake
 bakery:Stollen_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3937,7 +4063,8 @@ bakery:marzipan
 bakery:raisins
 bakery:flour
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Stollen_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Stollen_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Strawberry_cheesecake
 bakery:Strawberry_cheesecake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3962,7 +4089,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:cream_cheese
 bakery:biscuit_crumbs
 bakery:heavy_cream
- )]] .
+ )]] ;
+rdfs:label "Strawberry_cheesecake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Strawberry_cheesecake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Strawberry_shortcake
 bakery:Strawberry_shortcake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -3987,7 +4115,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:sugar
 bakery:flour
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Strawberry_shortcake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Strawberry_shortcake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Streuselkuchen
 bakery:Streuselkuchen rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4017,7 +4146,8 @@ bakery:cinnamon
 bakery:ground_cloves
 bakery:butter
 bakery:cornstarch
- )]] .
+ )]] ;
+rdfs:label "Streuselkuchen"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Streuselkuchen"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Swiss_roll
 bakery:Swiss_roll rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4047,7 +4177,8 @@ bakery:eggs
 bakery:butter
 bakery:heavy_cream
 bakery:chocolate
- )]] .
+ )]] ;
+rdfs:label "Swiss_roll"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Swiss_roll"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tarta_de_Santiago
 bakery:Tarta_de_Santiago rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4087,7 +4218,8 @@ bakery:sugar
 bakery:flour
 bakery:lemon_zest
 bakery:orange_zest
- )]] .
+ )]] ;
+rdfs:label "Tarta_de_Santiago"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tarta_de_Santiago"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tarte_Tatin
 bakery:Tarte_Tatin rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4112,7 +4244,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:butter
 bakery:egg_yolks
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Tarte_Tatin"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tarte_Tatin"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tartufo
 bakery:Tartufo rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4137,7 +4270,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:chocolate_cookie_crumbs
 bakery:cherries
 bakery:chocolate
- )]] .
+ )]] ;
+rdfs:label "Tartufo"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tartufo"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_marshmallow_tea_cakes
 bakery:Chocolate_marshmallow_tea_cakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4162,7 +4296,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:egg_whites
 bakery:biscuit_crumbs
 bakery:golden_syrup
- )]] .
+ )]] ;
+rdfs:label "Chocolate_marshmallow_tea_cakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Chocolate_marshmallow_tea_cakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tea_loaf
 bakery:Tea_loaf rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4197,7 +4332,8 @@ bakery:orange_juice
 bakery:hot_tea
 bakery:flour
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Tea_loaf"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tea_loaf"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tin_roof_pie
 bakery:Tin_roof_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4222,7 +4358,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:golden_syrup
 bakery:peanuts
 bakery:ice_cream
- )]] .
+ )]] ;
+rdfs:label "Tin_roof_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tin_roof_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tipsy_cake
 bakery:Tipsy_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4252,7 +4389,8 @@ bakery:egg_yolks
 bakery:heavy_cream
 bakery:brandy
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Tipsy_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tipsy_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tiramisu
 bakery:Tiramisu rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4287,7 +4425,8 @@ bakery:dark_chocolate
 bakery:cocoa_powder
 bakery:coffee_powder
 bakery:sponge_fingers
- )]] .
+ )]] ;
+rdfs:label "Tiramisu"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tiramisu"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Torta_caprese
 bakery:Torta_caprese rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4317,7 +4456,8 @@ bakery:almond_essence
 bakery:ground_hazelnuts
 bakery:ground_almonds
 bakery:liquore_strega
- )]] .
+ )]] ;
+rdfs:label "Torta_caprese"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Torta_caprese"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Torta_de_nata
 bakery:Torta_de_nata rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4337,7 +4477,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:hot_milk
 bakery:sugar
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Torta_de_nata"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Torta_de_nata"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Treacle_tart
 bakery:Treacle_tart rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4362,7 +4503,8 @@ rdfs:subClassOf bakery:Dessert ,
 bakery:lemon_zest
 bakery:butter
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Treacle_tart"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Treacle_tart"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tres_leches_cake
 bakery:Tres_leches_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4392,7 +4534,8 @@ bakery:condensed_milk
 bakery:milk
 bakery:vanilla_essence
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Tres_leches_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Tres_leches_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pineapple_upside-down_cake
 bakery:Pineapple_upside-down_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4422,7 +4565,8 @@ bakery:brown_sugar
 bakery:vanilla_essence
 bakery:eggs
 bakery:flour
- )]] .
+ )]] ;
+rdfs:label "Pineapple_upside-down_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Pineapple_upside-down_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vanilla_cupcakes
 bakery:Vanilla_cupcakes rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4457,7 +4601,8 @@ bakery:vanilla_essence
 bakery:buttercream
 bakery:flour
 bakery:eggs
- )]] .
+ )]] ;
+rdfs:label "Vanilla_cupcakes"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Vanilla_cupcakes"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_Strudel
 bakery:Apple_Strudel rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4497,7 +4642,8 @@ bakery:orange_zest
 bakery:nutmeg
 bakery:sultanas
 bakery:breadcrumbs
- )]] .
+ )]] ;
+rdfs:label "Apple_Strudel"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Apple_Strudel"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vinegar_pie
 bakery:Vinegar_pie rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4532,7 +4678,8 @@ bakery:lemon_juice
 bakery:vinegar
 bakery:flour
 bakery:butter
- )]] .
+ )]] ;
+rdfs:label "Vinegar_pie"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Vinegar_pie"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vanilla_wafer_cake
 bakery:Vanilla_wafer_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4572,7 +4719,8 @@ bakery:eggs
 bakery:sugar
 bakery:chopped_pecans
 bakery:vanilla_essence
- )]] .
+ )]] ;
+rdfs:label "Vanilla_wafer_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Vanilla_wafer_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Walnut_cake
 bakery:Walnut_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4617,7 +4765,8 @@ bakery:sugar
 bakery:chopped_walnuts
 bakery:vanilla_essence
 bakery:icing_sugar
- )]] .
+ )]] ;
+rdfs:label "Walnut_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Walnut_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#White_sugar_sponge_cake
 bakery:White_sugar_sponge_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4637,7 +4786,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:rice_flour
 bakery:white_sugar
 bakery:bakers_yeast
- )]] .
+ )]] ;
+rdfs:label "White_sugar_sponge_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "White_sugar_sponge_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Yule_log
 bakery:Yule_log rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4667,7 +4817,8 @@ bakery:egg_whites
 bakery:cocoa_powder
 bakery:vanilla_essence
 bakery:chocolate
- )]] .
+ )]] ;
+rdfs:label "Yule_log"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Yule_log"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Zabaione
 bakery:Zabaione rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4687,7 +4838,8 @@ rdfs:subClassOf bakery:Dessert ,
  owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  bakery:egg_yolks
 bakery:marsala_wine
 bakery:white_sugar
- )]] .
+ )]] ;
+rdfs:label "Zabaione"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Zabaione"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Mille_feuille_vanilla_cake
 bakery:Mille_feuille_vanilla_cake rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4717,7 +4869,8 @@ bakery:egg_yolks
 bakery:vanilla_essence
 bakery:cream
 bakery:icing_sugar
- )]] .
+ )]] ;
+rdfs:label "Mille_feuille_vanilla_cake"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Mille_feuille_vanilla_cake"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Raspberry_mille-feuille
 bakery:Raspberry_mille-feuille rdf:type owl:Class ;
 rdfs:subClassOf bakery:Dessert ,
@@ -4747,7 +4900,8 @@ bakery:puff_pastry
 bakery:egg_yolks
 bakery:cream
 bakery:icing_sugar
- )]] .
+ )]] ;
+rdfs:label "Raspberry_mille-feuille"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "Raspberry_mille-feuille"@en .
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#currants
 bakery:currants rdf:type owl:Class , bakery:Ingredient .
 

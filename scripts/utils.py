@@ -36,7 +36,7 @@ for row in reader:
 		# add Dessert name
 		dessertBlock += 'bakery:' + dessert + ' rdf:type owl:Class ;\nrdfs:subClassOf bakery:Dessert ,\n'
 
-		
+		detailsBlock = 'rdfs:label "' + dessert + '"@en ; skos:definition "Bakery dessert."@en ; skos:prefLabel "' + dessert +'"@en .\n'
 		
 		# add ingredients
 		ingredientsRestirctions = ''
@@ -67,8 +67,10 @@ for row in reader:
 		dessertBlock += ingredientsRestirctions
 
 		# add final union of
-		dessertBlock += ' [ rdf:type owl:Restriction ;\n owl:onProperty bakery:hasIngredient ;\n owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  ' + unionIngredients + ' )]] .\n'
+		dessertBlock += ' [ rdf:type owl:Restriction ;\n owl:onProperty bakery:hasIngredient ;\n owl:allValuesFrom [ rdf:type owl:Class ; owl:unionOf (  ' + unionIngredients + ' )]] ;\n'
 
+		dessertBlock += detailsBlock
+		
 		result = dessertBlock
 
 		outfile.write(result)	# now write the d variable into the file
