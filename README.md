@@ -1,11 +1,15 @@
 # David's Bamboozled Bakery
 
+- Link to this Ontology https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl
+- List of desserts https://github.com/damorton/bakery-ontology/blob/master/scripts/data.csv
+- Scripts used to convert `.csv` data to `.ttl` in https://github.com/damorton/bakery-ontology/tree/master/scripts
+- `utils.py` does not include label/comment/etc information when creating `.ttl` data.
+
+# Resources
+
 - Download and install Protege https://protege.stanford.edu/products.php#desktop-protege
 - Download and install Apache Jena Fuseki https://jena.apache.org/download/index.cgi
 - Watch these youtube videos for an Intro to Protege and Apache Jena Fuseki https://youtu.be/0zUos1zWB5k
-- Link to this Ontology https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl
-- Scripts used to convert `.csv` data to `.ttl` in `/scripts`
-  - `utils.py` does not include label/comment/etc information when creating `.ttl` data.
 
 # Release Log
 
