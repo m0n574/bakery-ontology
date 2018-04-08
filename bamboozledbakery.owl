@@ -74,18 +74,22 @@ bakery:Alcohol rdf:type owl:Class ;
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Allergen
 bakery:Allergen rdf:type owl:Class ;
-                owl:equivalentClass [ owl:intersectionOf ( bakery:Ingredient
-                                                           [ rdf:type owl:Class ;
-                                                             owl:unionOf ( bakery:Dairy
-                                                                           bakery:Egg
-                                                                           bakery:Gluten
-                                                                           bakery:Nuts
-                                                                         )
-                                                           ]
-                                                         ) ;
-                                      rdf:type owl:Class
+                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                      owl:onProperty bakery:hasIngredient ;
+                                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                                          owl:unionOf ( bakery:Dairy
+                                                                        bakery:Egg
+                                                                        bakery:Gluten
+                                                                        bakery:Nuts
+                                                                      )
+                                                        ]
                                     ] ;
-                rdfs:subClassOf bakery:Ingredient .
+                rdfs:subClassOf bakery:Ingredient ;
+                rdfs:comment "Collection of ingredients that are known allergens."@en ;
+                      rdfs:label "Allergen"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Ingredient that is known to cause allergies in people."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Allergen"@en .
+                
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Almond_tart
@@ -1970,7 +1974,11 @@ bakery:ComplexDessert rdf:type owl:Class ;
                                                                ) ;
                                             rdf:type owl:Class
                                           ] ;
-                      rdfs:subClassOf bakery:Dessert .
+                      rdfs:subClassOf bakery:Dessert ;
+                      rdfs:comment "Dessert comtaining more than 7 different ingredients."@en ;
+                      rdfs:label "ComplexDessert"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Complex bakery dessert."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ComplexDessert"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cracker_cake
@@ -2179,7 +2187,11 @@ bakery:Dairy rdf:type owl:Class ;
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Dessert
-bakery:Dessert rdf:type owl:Class .
+bakery:Dessert rdf:type owl:Class ;
+               rdfs:comment "Dessert in the bamboozled bakery. Desserts have been asserted all different from each other and are classes or desserts instead of instances."@en ;
+               rdfs:label "Dessert"@en ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "Bakery Dessert"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Dessert"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Devils_food_cake
@@ -2248,7 +2260,11 @@ bakery:DiabeticFriendly rdf:type owl:Class ;
                                                                  ) ;
                                               rdf:type owl:Class
                                             ] ;
-                        rdfs:subClassOf bakery:Dessert .
+                        rdfs:subClassOf bakery:Dessert ;
+                        rdfs:comment "Desserts that are safe for diabetics to eat. They do not contain Sugar ingredients."@en ;
+                      rdfs:label "DiabeticFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Diabetic friendly dessert."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "DiabeticFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Double_chocolate_muffins
@@ -2420,7 +2436,11 @@ bakery:EggAllergyFriendly rdf:type owl:Class ;
                                                                    ) ;
                                                 rdf:type owl:Class
                                               ] ;
-                          rdfs:subClassOf bakery:Dessert .
+                          rdfs:subClassOf bakery:Dessert ;
+                          rdfs:comment "Desserts that are safe for people with egg allergies to eat. They do not contain Egg ingredients."@en ;
+                      rdfs:label "EggAllergyFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Egg allergy friendly dessert."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "EggAllergyFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Flavouring
@@ -2599,7 +2619,11 @@ bakery:FruityDessert rdf:type owl:Class ;
                                                               ) ;
                                            rdf:type owl:Class
                                          ] ;
-                     rdfs:subClassOf bakery:Dessert .
+                     rdfs:subClassOf bakery:Dessert ;
+                     rdfs:comment "Desserts that contain fruit."@en ;
+                      rdfs:label "FruityDessert"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Fruity bakery dessert"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "FruityDessert"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Funnel_cakes
@@ -2835,7 +2859,11 @@ bakery:GlutenFriendly rdf:type owl:Class ;
                                                                ) ;
                                             rdf:type owl:Class
                                           ] ;
-                      rdfs:subClassOf bakery:Dessert .
+                      rdfs:subClassOf bakery:Dessert ;
+                      rdfs:comment "Desserts that safe for celiacs to eat. Gluten free dessert."@en ;
+                      rdfs:label "GlutenFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Gluten free bakery dessert"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "GlutenFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenPlant
@@ -3416,7 +3444,11 @@ bakery:LactoseFriendly rdf:type owl:Class ;
                                                                 ) ;
                                              rdf:type owl:Class
                                            ] ;
-                       rdfs:subClassOf bakery:Dessert .
+                       rdfs:subClassOf bakery:Dessert ;
+                       rdfs:comment "Desserts that safe for people with Dairy allergies to eat. Dairy free dessert."@en ;
+                      rdfs:label "LactoseFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dairy free bakery dessert"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "LactoseFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ladyfinger_biscuits
@@ -4145,7 +4177,11 @@ bakery:NonDiabetic rdf:type owl:Class ;
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf bakery:Dessert .
+                   rdfs:subClassOf bakery:Dessert ;
+                   rdfs:comment "Desserts that are not safe for Diabetics to eat. Dessert that contains Sugar ingredients."@en ;
+                      rdfs:label "NonDiabetic"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Sugar"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonDiabetic"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonEggAllergy
@@ -4157,7 +4193,11 @@ bakery:NonEggAllergy rdf:type owl:Class ;
                                                               ) ;
                                            rdf:type owl:Class
                                          ] ;
-                     rdfs:subClassOf bakery:Dessert .
+                     rdfs:subClassOf bakery:Dessert ;
+                     rdfs:comment "Desserts that are not safe for people with Egg allergies to eat. Dessert that contains Egg ingredients."@en ;
+                      rdfs:label "NonEggAllergy"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Egg"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonEggAllergy"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonGluten
@@ -4169,7 +4209,12 @@ bakery:NonGluten rdf:type owl:Class ;
                                                           ) ;
                                        rdf:type owl:Class
                                      ] ;
-                 rdfs:subClassOf bakery:Dessert .
+                 rdfs:subClassOf bakery:Dessert ;
+                 rdfs:comment "Desserts that are not safe for people with Gluten allergies to eat. Dessert that contains Gluten ingredients."@en ;
+                      rdfs:label "NonGluten"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Gluten"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonGluten"@en .
+
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonLactose
@@ -4181,7 +4226,11 @@ bakery:NonLactose rdf:type owl:Class ;
                                                            ) ;
                                         rdf:type owl:Class
                                       ] ;
-                  rdfs:subClassOf bakery:Dessert .
+                  rdfs:subClassOf bakery:Dessert ;
+                  rdfs:comment "Desserts that are not safe for people with Lactose allergies to eat. Dessert that contains Dairy ingredients."@en ;
+                      rdfs:label "NonLactose"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Dairy"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonLactose"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonNutAllergy
@@ -4193,7 +4242,11 @@ bakery:NonNutAllergy rdf:type owl:Class ;
                                                               ) ;
                                            rdf:type owl:Class
                                          ] ;
-                     rdfs:subClassOf bakery:Dessert .
+                     rdfs:subClassOf bakery:Dessert ;
+                     rdfs:comment "Desserts that are not safe for people with Nut allergies to eat. Dessert that contains Nut ingredients."@en ;
+                      rdfs:label "NonNutAllergy"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Nut"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonNutAllergy"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonTeetotaller
@@ -4205,7 +4258,11 @@ bakery:NonTeetotaller rdf:type owl:Class ;
                                                                ) ;
                                             rdf:type owl:Class
                                           ] ;
-                      rdfs:subClassOf bakery:Dessert .
+                      rdfs:subClassOf bakery:Dessert ;
+                      rdfs:comment "Desserts that are not safe for people with Alcohol allergies/addictions to eat. Dessert that contains Alcohol ingredients."@en ;
+                      rdfs:label "NonTeetotaller"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Alcohol"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonTeetotaller"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonVegan
@@ -4217,7 +4274,11 @@ bakery:NonVegan rdf:type owl:Class ;
                                                          ) ;
                                       rdf:type owl:Class
                                     ] ;
-                rdfs:subClassOf bakery:Dessert .
+                rdfs:subClassOf bakery:Dessert ;
+                rdfs:comment "Desserts that are not safe for Vegans to eat. Dessert that contains Animal ingredients."@en ;
+                      rdfs:label "NonVegan"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Animal products"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonVegan"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonVegetarian
@@ -4229,7 +4290,12 @@ bakery:NonVegetarian rdf:type owl:Class ;
                                                               ) ;
                                            rdf:type owl:Class
                                          ] ;
-                     rdfs:subClassOf bakery:Dessert .
+                     rdfs:subClassOf bakery:Dessert ;
+                     rdfs:comment "Desserts that are not safe for Vegetarians to eat. Dessert that contains Animal ingredients."@en ;
+                      rdfs:label "NonVegetarian"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Animal products"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NonVegetarian"@en .
+
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NutAllergyFriendly
@@ -4244,7 +4310,11 @@ bakery:NutAllergyFriendly rdf:type owl:Class ;
                                                                    ) ;
                                                 rdf:type owl:Class
                                               ] ;
-                          rdfs:subClassOf bakery:Dessert .
+                          rdfs:subClassOf bakery:Dessert ;
+                          rdfs:comment "Desserts that are safe for people with Nut allergies to eat. Dessert that does not contain Nut ingredients."@en ;
+                      rdfs:label "NutAllergyFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Nut free dessert."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "NutAllergyFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Nutella_pancakes
@@ -5559,7 +5629,11 @@ bakery:SpicyDessert rdf:type owl:Class ;
                                                              ) ;
                                           rdf:type owl:Class
                                         ] ;
-                    rdfs:subClassOf bakery:Dessert .
+                    rdfs:subClassOf bakery:Dessert ;
+                    rdfs:comment "Desserts that contain some spices."@en ;
+                      rdfs:label "SpicyDessert"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Spicy dessert."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SpicyDessert"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sponge_cake
@@ -5980,7 +6054,12 @@ bakery:TeetotallerFriendly rdf:type owl:Class ;
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf bakery:Dessert .
+                           rdfs:subClassOf bakery:Dessert ;
+                           rdfs:comment "Desserts that are safe for people with Alcohol allergies/addictions to eat. Dessert that contains Alcohol ingredients."@en ;
+                      rdfs:label "TeetotallerFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that contains Alcohol products"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "TeetotallerFriendly"@en .
+                           
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tin_roof_pie
@@ -6344,7 +6423,11 @@ bakery:VeganFriendly rdf:type owl:Class ;
                                                               ) ;
                                            rdf:type owl:Class
                                          ] ;
-                     rdfs:subClassOf bakery:Dessert .
+                     rdfs:subClassOf bakery:Dessert ;
+                     rdfs:comment "Desserts that are safe for Vegans to eat. Dessert that does not contain Animal ingredients."@en ;
+                      rdfs:label "VeganFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that does not contain Animal products"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "VeganFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VeganIngredient
@@ -6361,7 +6444,11 @@ bakery:VeganIngredient rdf:type owl:Class ;
                                                                 ) ;
                                              rdf:type owl:Class
                                            ] ;
-                       rdfs:subClassOf bakery:Ingredient .
+                       rdfs:subClassOf bakery:Ingredient ;
+                       rdfs:comment "Collection of ingredients that are Vegan friendly."@en ;
+                      rdfs:label "VeganIngredient"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Ingredient that is ok for Vegans to eat. They do not include animal products."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "VeganIngredient"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vegetable
@@ -6381,7 +6468,11 @@ bakery:VegetarianFriendly rdf:type owl:Class ;
                                                                    ) ;
                                                 rdf:type owl:Class
                                               ] ;
-                          rdfs:subClassOf bakery:Dessert .
+                          rdfs:subClassOf bakery:Dessert ;
+                          rdfs:comment "Desserts that are safe for Vegetarians to eat. Dessert that does not contain Animal ingredients."@en ;
+                      rdfs:label "VegetarianFriendly"@en ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "Dessert that does not contain Animal products"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "VegetarianFriendly"@en .
 
 
 ###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vinegar_pie
