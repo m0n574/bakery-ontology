@@ -1,3 +1,4 @@
 *.copy
 *.code-workspace
 *.xml
+*.vscode
