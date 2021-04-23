@@ -1,4 +1,4 @@
-@prefix : <https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#> .
+@prefix : <https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,17 +7,17 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix bakery: <https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#> .
-@base <https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl> .
+@prefix bakery: <https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#> .
+@base <https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl> .
 
-<https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl> rdf:type owl:Ontology ;
-                                                                                          owl:versionIRI <https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl> ;
+<https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl> rdf:type owl:Ontology ;
+                                                                                          owl:versionIRI <https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl> ;
                                                                                           dc:description "An ontology about a bakery and its products."@en ;
-                                                                                          rdfs:label "bamboozledbakery"^^xsd:string ;
-                                                                                          dc:title "bamboozledbakery"@en ;
+                                                                                          rdfs:label "pastrybakery.owl"^^xsd:string ;
+                                                                                          dc:title "pastrybakery.owl"@en ;
                                                                                           terms:license "MIT"^^xsd:string ;
-                                                                                          terms:provenance "Version 1.0 of bamboozledbakery ontology."@en ;
-                                                                                          terms:contributor "David Morton" ;
+                                                                                          terms:provenance "Version 1.0 of pastrybakery.owl ontology."@en ;
+                                                                                          terms:contributor "PearlGopikaGopika" ;
                                                                                           owl:versionInfo "1.0"^^xsd:string .
 
 #################################################################
@@ -60,7 +60,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hasIngredient
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#hasIngredient
 bakery:hasIngredient rdf:type owl:ObjectProperty ;
                      rdfs:domain bakery:Dessert ;
                      rdfs:range bakery:Ingredient .
@@ -70,12 +70,12 @@ bakery:hasIngredient rdf:type owl:ObjectProperty ;
 #    Classes
 #################################################################
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Alcohol
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Alcohol
 bakery:Alcohol rdf:type owl:Class ;
                rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Allergen
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Allergen
 bakery:Allergen rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty bakery:hasIngredient ;
@@ -94,7 +94,7 @@ bakery:Allergen rdf:type owl:Class ;
                 skos:prefLabel "Allergen"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Almond_tart
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Almond_tart
 bakery:Almond_tart rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -133,7 +133,7 @@ bakery:Almond_tart rdf:type owl:Class ;
                    skos:prefLabel "Almond_tart"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Angel_food_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Angel_food_cake
 bakery:Angel_food_cake rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -162,17 +162,17 @@ bakery:Angel_food_cake rdf:type owl:Class ;
                        skos:prefLabel "Angel_food_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Animal
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Animal
 bakery:Animal rdf:type owl:Class ;
               rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#AnimalByProduct
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#AnimalByProduct
 bakery:AnimalByProduct rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Animal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_Charlotte
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Apple_Charlotte
 bakery:Apple_Charlotte rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -206,7 +206,7 @@ bakery:Apple_Charlotte rdf:type owl:Class ;
                        skos:prefLabel "Apple_Charlotte"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_Strudel
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Apple_Strudel
 bakery:Apple_Strudel rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -255,7 +255,7 @@ bakery:Apple_Strudel rdf:type owl:Class ;
                      skos:prefLabel "Apple_Strudel"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_brown_betty
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Apple_brown_betty
 bakery:Apple_brown_betty rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -289,7 +289,7 @@ bakery:Apple_brown_betty rdf:type owl:Class ;
                          skos:prefLabel "Apple_brown_betty"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Apple_crumble
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Apple_crumble
 bakery:Apple_crumble rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -323,7 +323,7 @@ bakery:Apple_crumble rdf:type owl:Class ;
                      skos:prefLabel "Apple_crumble"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Banana_muffins
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Banana_muffins
 bakery:Banana_muffins rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -362,7 +362,7 @@ bakery:Banana_muffins rdf:type owl:Class ;
                       skos:prefLabel "Banana_muffins"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Banoffee_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Banoffee_pie
 bakery:Banoffee_pie rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -396,7 +396,7 @@ bakery:Banoffee_pie rdf:type owl:Class ;
                     skos:prefLabel "Banoffee_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Battenberg_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Battenberg_cake
 bakery:Battenberg_cake rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -425,7 +425,7 @@ bakery:Battenberg_cake rdf:type owl:Class ;
                        skos:prefLabel "Battenberg_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Belgian_waffles
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Belgian_waffles
 bakery:Belgian_waffles rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -464,7 +464,7 @@ bakery:Belgian_waffles rdf:type owl:Class ;
                        skos:prefLabel "Belgian_waffles"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Biscotti_Regina
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Biscotti_Regina
 bakery:Biscotti_Regina rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -503,7 +503,7 @@ bakery:Biscotti_Regina rdf:type owl:Class ;
                        skos:prefLabel "Biscotti_Regina"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Biscuit_Tortoni
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Biscuit_Tortoni
 bakery:Biscuit_Tortoni rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -537,7 +537,7 @@ bakery:Biscuit_Tortoni rdf:type owl:Class ;
                        skos:prefLabel "Biscuit_Tortoni"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Black_Forest_gateau
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Black_Forest_gateau
 bakery:Black_Forest_gateau rdf:type owl:Class ;
                            rdfs:subClassOf bakery:Dessert ,
                                            [ rdf:type owl:Restriction ;
@@ -586,7 +586,7 @@ bakery:Black_Forest_gateau rdf:type owl:Class ;
                            skos:prefLabel "Black_Forest_gateau"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Blueberry_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Blueberry_pie
 bakery:Blueberry_pie rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -625,7 +625,7 @@ bakery:Blueberry_pie rdf:type owl:Class ;
                      skos:prefLabel "Blueberry_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Boston_cream_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Boston_cream_pie
 bakery:Boston_cream_pie rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -664,7 +664,7 @@ bakery:Boston_cream_pie rdf:type owl:Class ;
                         skos:prefLabel "Boston_cream_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Bread_and_butter_pudding
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Bread_and_butter_pudding
 bakery:Bread_and_butter_pudding rdf:type owl:Class ;
                                 rdfs:subClassOf bakery:Dessert ,
                                                 [ rdf:type owl:Restriction ;
@@ -708,7 +708,7 @@ bakery:Bread_and_butter_pudding rdf:type owl:Class ;
                                 skos:prefLabel "Bread_and_butter_pudding"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Bundt_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Bundt_cake
 bakery:Bundt_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -747,7 +747,7 @@ bakery:Bundt_cake rdf:type owl:Class ;
                   skos:prefLabel "Bundt_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Butterkuchen
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Butterkuchen
 bakery:Butterkuchen rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -781,7 +781,7 @@ bakery:Butterkuchen rdf:type owl:Class ;
                     skos:prefLabel "Butterkuchen"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Butterscotch_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Butterscotch_pie
 bakery:Butterscotch_pie rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -815,7 +815,7 @@ bakery:Butterscotch_pie rdf:type owl:Class ;
                         skos:prefLabel "Butterscotch_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cake_pops
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Cake_pops
 bakery:Cake_pops rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dessert ,
                                  [ rdf:type owl:Restriction ;
@@ -849,7 +849,7 @@ bakery:Cake_pops rdf:type owl:Class ;
                  skos:prefLabel "Cake_pops"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Capuccino_chocolate_muffins
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Capuccino_chocolate_muffins
 bakery:Capuccino_chocolate_muffins rdf:type owl:Class ;
                                    rdfs:subClassOf bakery:Dessert ,
                                                    [ rdf:type owl:Restriction ;
@@ -888,7 +888,7 @@ bakery:Capuccino_chocolate_muffins rdf:type owl:Class ;
                                    skos:prefLabel "Capuccino_chocolate_muffins"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Caraway_seed_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Caraway_seed_cake
 bakery:Caraway_seed_cake rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -927,7 +927,7 @@ bakery:Caraway_seed_cake rdf:type owl:Class ;
                          skos:prefLabel "Caraway_seed_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Carrot_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Carrot_cake
 bakery:Carrot_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -976,7 +976,7 @@ bakery:Carrot_cake rdf:type owl:Class ;
                    skos:prefLabel "Carrot_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cassata_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Cassata_cake
 bakery:Cassata_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -1020,7 +1020,7 @@ bakery:Cassata_cake rdf:type owl:Class ;
                     skos:prefLabel "Cassata_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Castella_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Castella_cake
 bakery:Castella_cake rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -1054,7 +1054,7 @@ bakery:Castella_cake rdf:type owl:Class ;
                      skos:prefLabel "Castella_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chantilly_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chantilly_cake
 bakery:Chantilly_cake rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -1088,7 +1088,7 @@ bakery:Chantilly_cake rdf:type owl:Class ;
                       skos:prefLabel "Chantilly_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chelsea_buns
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chelsea_buns
 bakery:Chelsea_buns rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -1132,7 +1132,7 @@ bakery:Chelsea_buns rdf:type owl:Class ;
                     skos:prefLabel "Chelsea_buns"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cherries_Jubilee
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Cherries_Jubilee
 bakery:Cherries_Jubilee rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -1161,7 +1161,7 @@ bakery:Cherries_Jubilee rdf:type owl:Class ;
                         skos:prefLabel "Cherries_Jubilee"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cherry_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Cherry_pie
 bakery:Cherry_pie rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -1195,7 +1195,7 @@ bakery:Cherry_pie rdf:type owl:Class ;
                   skos:prefLabel "Cherry_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chiffon_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chiffon_cake
 bakery:Chiffon_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -1234,7 +1234,7 @@ bakery:Chiffon_cake rdf:type owl:Class ;
                     skos:prefLabel "Chiffon_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_bombe
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_bombe
 bakery:Chocolate_bombe rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -1278,7 +1278,7 @@ bakery:Chocolate_bombe rdf:type owl:Class ;
                        skos:prefLabel "Chocolate_bombe"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_brownies
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_brownies
 bakery:Chocolate_brownies rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -1322,7 +1322,7 @@ bakery:Chocolate_brownies rdf:type owl:Class ;
                           skos:prefLabel "Chocolate_brownies"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_chip_cookies
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_chip_cookies
 bakery:Chocolate_chip_cookies rdf:type owl:Class ;
                               rdfs:subClassOf bakery:Dessert ,
                                               [ rdf:type owl:Restriction ;
@@ -1366,7 +1366,7 @@ bakery:Chocolate_chip_cookies rdf:type owl:Class ;
                               skos:prefLabel "Chocolate_chip_cookies"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_chip_scones
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_chip_scones
 bakery:Chocolate_chip_scones rdf:type owl:Class ;
                              rdfs:subClassOf bakery:Dessert ,
                                              [ rdf:type owl:Restriction ;
@@ -1415,7 +1415,7 @@ bakery:Chocolate_chip_scones rdf:type owl:Class ;
                              skos:prefLabel "Chocolate_chip_scones"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_eclairs
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_eclairs
 bakery:Chocolate_eclairs rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -1444,7 +1444,7 @@ bakery:Chocolate_eclairs rdf:type owl:Class ;
                          skos:prefLabel "Chocolate_eclairs"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_fudge_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_fudge_cake
 bakery:Chocolate_fudge_cake rdf:type owl:Class ;
                             rdfs:subClassOf bakery:Dessert ,
                                             [ rdf:type owl:Restriction ;
@@ -1483,7 +1483,7 @@ bakery:Chocolate_fudge_cake rdf:type owl:Class ;
                             skos:prefLabel "Chocolate_fudge_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_ganache_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_ganache_cake
 bakery:Chocolate_ganache_cake rdf:type owl:Class ;
                               rdfs:subClassOf bakery:Dessert ,
                                               [ rdf:type owl:Restriction ;
@@ -1522,7 +1522,7 @@ bakery:Chocolate_ganache_cake rdf:type owl:Class ;
                               skos:prefLabel "Chocolate_ganache_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_lava_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_lava_cake
 bakery:Chocolate_lava_cake rdf:type owl:Class ;
                            rdfs:subClassOf bakery:Dessert ,
                                            [ rdf:type owl:Restriction ;
@@ -1561,7 +1561,7 @@ bakery:Chocolate_lava_cake rdf:type owl:Class ;
                            skos:prefLabel "Chocolate_lava_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_marble_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_marble_cake
 bakery:Chocolate_marble_cake rdf:type owl:Class ;
                              rdfs:subClassOf bakery:Dessert ,
                                              [ rdf:type owl:Restriction ;
@@ -1600,7 +1600,7 @@ bakery:Chocolate_marble_cake rdf:type owl:Class ;
                              skos:prefLabel "Chocolate_marble_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_marshmallow_tea_cakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_marshmallow_tea_cakes
 bakery:Chocolate_marshmallow_tea_cakes rdf:type owl:Class ;
                                        rdfs:subClassOf bakery:Dessert ,
                                                        [ rdf:type owl:Restriction ;
@@ -1634,7 +1634,7 @@ bakery:Chocolate_marshmallow_tea_cakes rdf:type owl:Class ;
                                        skos:prefLabel "Chocolate_marshmallow_tea_cakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_mousse
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_mousse
 bakery:Chocolate_mousse rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -1678,7 +1678,7 @@ bakery:Chocolate_mousse rdf:type owl:Class ;
                         skos:prefLabel "Chocolate_mousse"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_pralines
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_pralines
 bakery:Chocolate_pralines rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -1722,7 +1722,7 @@ bakery:Chocolate_pralines rdf:type owl:Class ;
                           skos:prefLabel "Chocolate_pralines"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Chocolate_truffles
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Chocolate_truffles
 bakery:Chocolate_truffles rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -1756,7 +1756,7 @@ bakery:Chocolate_truffles rdf:type owl:Class ;
                           skos:prefLabel "Chocolate_truffles"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Christmas_fruitcake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Christmas_fruitcake
 bakery:Christmas_fruitcake rdf:type owl:Class ;
                            rdfs:subClassOf bakery:Dessert ,
                                            [ rdf:type owl:Restriction ;
@@ -1820,7 +1820,7 @@ bakery:Christmas_fruitcake rdf:type owl:Class ;
                            skos:prefLabel "Christmas_fruitcake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cinnamon_rolls
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Cinnamon_rolls
 bakery:Cinnamon_rolls rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -1854,7 +1854,7 @@ bakery:Cinnamon_rolls rdf:type owl:Class ;
                       skos:prefLabel "Cinnamon_rolls"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Coconut_Macaroons
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Coconut_Macaroons
 bakery:Coconut_Macaroons rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -1888,7 +1888,7 @@ bakery:Coconut_Macaroons rdf:type owl:Class ;
                          skos:prefLabel "Coconut_Macaroons"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Coconut_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Coconut_cake
 bakery:Coconut_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -1927,7 +1927,7 @@ bakery:Coconut_cake rdf:type owl:Class ;
                     skos:prefLabel "Coconut_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Coffee_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Coffee_cake
 bakery:Coffee_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -1966,7 +1966,7 @@ bakery:Coffee_cake rdf:type owl:Class ;
                    skos:prefLabel "Coffee_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ComplexDessert
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ComplexDessert
 bakery:ComplexDessert rdf:type owl:Class ;
                       owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                  [ rdf:type owl:Restriction ;
@@ -1983,7 +1983,7 @@ bakery:ComplexDessert rdf:type owl:Class ;
                       skos:prefLabel "ComplexDessert"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Cracker_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Cracker_cake
 bakery:Cracker_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -2017,7 +2017,7 @@ bakery:Cracker_cake rdf:type owl:Class ;
                     skos:prefLabel "Cracker_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Crepes_Suzette
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Crepes_Suzette
 bakery:Crepes_Suzette rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -2066,7 +2066,7 @@ bakery:Crepes_Suzette rdf:type owl:Class ;
                       skos:prefLabel "Crepes_Suzette"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Crumb_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Crumb_cake
 bakery:Crumb_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -2105,7 +2105,7 @@ bakery:Crumb_cake rdf:type owl:Class ;
                   skos:prefLabel "Crumb_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Crème_brûlée
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Crème_brûlée
 bakery:Crème_brûlée rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -2139,7 +2139,7 @@ bakery:Crème_brûlée rdf:type owl:Class ;
                     skos:prefLabel "Crème_brûlée"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Custard_tarts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Custard_tarts
 bakery:Custard_tarts rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -2183,12 +2183,12 @@ bakery:Custard_tarts rdf:type owl:Class ;
                      skos:prefLabel "Custard_tarts"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Dairy
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Dairy
 bakery:Dairy rdf:type owl:Class ;
              rdfs:subClassOf bakery:Animal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Dessert
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Dessert
 bakery:Dessert rdf:type owl:Class ;
                rdfs:comment "Dessert in the bamboozled bakery. Desserts have been asserted all different from each other and are classes or desserts instead of instances."@en ;
                rdfs:label "Dessert"@en ;
@@ -2196,7 +2196,7 @@ bakery:Dessert rdf:type owl:Class ;
                skos:prefLabel "Dessert"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Devils_food_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Devils_food_cake
 bakery:Devils_food_cake rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -2250,7 +2250,7 @@ bakery:Devils_food_cake rdf:type owl:Class ;
                         skos:prefLabel "Devils_food_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#DiabeticFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#DiabeticFriendly
 bakery:DiabeticFriendly rdf:type owl:Class ;
                         owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                    [ rdf:type owl:Class ;
@@ -2269,7 +2269,7 @@ bakery:DiabeticFriendly rdf:type owl:Class ;
                         skos:prefLabel "DiabeticFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Double_chocolate_muffins
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Double_chocolate_muffins
 bakery:Double_chocolate_muffins rdf:type owl:Class ;
                                 rdfs:subClassOf bakery:Dessert ,
                                                 [ rdf:type owl:Restriction ;
@@ -2318,7 +2318,7 @@ bakery:Double_chocolate_muffins rdf:type owl:Class ;
                                 skos:prefLabel "Double_chocolate_muffins"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Dundee_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Dundee_cake
 bakery:Dundee_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -2372,7 +2372,7 @@ bakery:Dundee_cake rdf:type owl:Class ;
                    skos:prefLabel "Dundee_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Eccles_cakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Eccles_cakes
 bakery:Eccles_cakes rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -2421,12 +2421,12 @@ bakery:Eccles_cakes rdf:type owl:Class ;
                     skos:prefLabel "Eccles_cakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Egg
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Egg
 bakery:Egg rdf:type owl:Class ;
            rdfs:subClassOf bakery:Animal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#EggAllergyFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#EggAllergyFriendly
 bakery:EggAllergyFriendly rdf:type owl:Class ;
                           owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                      [ rdf:type owl:Class ;
@@ -2445,12 +2445,12 @@ bakery:EggAllergyFriendly rdf:type owl:Class ;
                           skos:prefLabel "EggAllergyFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Flavouring
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Flavouring
 bakery:Flavouring rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Flourless_chocolate_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Flourless_chocolate_cake
 bakery:Flourless_chocolate_cake rdf:type owl:Class ;
                                 rdfs:subClassOf bakery:Dessert ,
                                                 [ rdf:type owl:Restriction ;
@@ -2494,7 +2494,7 @@ bakery:Flourless_chocolate_cake rdf:type owl:Class ;
                                 skos:prefLabel "Flourless_chocolate_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Foam_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Foam_cake
 bakery:Foam_cake rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dessert ,
                                  [ rdf:type owl:Restriction ;
@@ -2528,12 +2528,12 @@ bakery:Foam_cake rdf:type owl:Class ;
                  skos:prefLabel "Foam_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Fruit
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Fruit
 bakery:Fruit rdf:type owl:Class ;
              rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Fruit_flan
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Fruit_flan
 bakery:Fruit_flan rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -2582,7 +2582,7 @@ bakery:Fruit_flan rdf:type owl:Class ;
                   skos:prefLabel "Fruit_flan"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Fruit_salad
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Fruit_salad
 bakery:Fruit_salad rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -2611,7 +2611,7 @@ bakery:Fruit_salad rdf:type owl:Class ;
                    skos:prefLabel "Fruit_salad"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#FruityDessert
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#FruityDessert
 bakery:FruityDessert rdf:type owl:Class ;
                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                 [ rdf:type owl:Restriction ;
@@ -2628,7 +2628,7 @@ bakery:FruityDessert rdf:type owl:Class ;
                      skos:prefLabel "FruityDessert"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Funnel_cakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Funnel_cakes
 bakery:Funnel_cakes rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -2672,7 +2672,7 @@ bakery:Funnel_cakes rdf:type owl:Class ;
                     skos:prefLabel "Funnel_cakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gelato
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Gelato
 bakery:Gelato rdf:type owl:Class ;
               rdfs:subClassOf bakery:Dessert ,
                               [ rdf:type owl:Restriction ;
@@ -2711,7 +2711,7 @@ bakery:Gelato rdf:type owl:Class ;
               skos:prefLabel "Gelato"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#German_chocolate_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#German_chocolate_cake
 bakery:German_chocolate_cake rdf:type owl:Class ;
                              rdfs:subClassOf bakery:Dessert ,
                                              [ rdf:type owl:Restriction ;
@@ -2765,7 +2765,7 @@ bakery:German_chocolate_cake rdf:type owl:Class ;
                              skos:prefLabel "German_chocolate_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gingerbread_house
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Gingerbread_house
 bakery:Gingerbread_house rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -2799,7 +2799,7 @@ bakery:Gingerbread_house rdf:type owl:Class ;
                          skos:prefLabel "Gingerbread_house"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gingerbread_men
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Gingerbread_men
 bakery:Gingerbread_men rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -2838,18 +2838,18 @@ bakery:Gingerbread_men rdf:type owl:Class ;
                        skos:prefLabel "Gingerbread_men"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gluten
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Gluten
 bakery:Gluten rdf:type owl:Class ;
               rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenAnimal
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#GlutenAnimal
 bakery:GlutenAnimal rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Gluten ;
                     owl:disjointWith bakery:GlutenPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#GlutenFriendly
 bakery:GlutenFriendly rdf:type owl:Class ;
                       owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                  [ rdf:type owl:Class ;
@@ -2868,12 +2868,12 @@ bakery:GlutenFriendly rdf:type owl:Class ;
                       skos:prefLabel "GlutenFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#GlutenPlant
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#GlutenPlant
 bakery:GlutenPlant rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Gluten .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gooey_butter_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Gooey_butter_cake
 bakery:Gooey_butter_cake rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -2917,7 +2917,7 @@ bakery:Gooey_butter_cake rdf:type owl:Class ;
                          skos:prefLabel "Gooey_butter_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Gugelhupf_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Gugelhupf_cake
 bakery:Gugelhupf_cake rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -2966,7 +2966,7 @@ bakery:Gugelhupf_cake rdf:type owl:Class ;
                       skos:prefLabel "Gugelhupf_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Hot_cakes_with_syrup
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Hot_cakes_with_syrup
 bakery:Hot_cakes_with_syrup rdf:type owl:Class ;
                             rdfs:subClassOf bakery:Dessert ,
                                             [ rdf:type owl:Restriction ;
@@ -3005,7 +3005,7 @@ bakery:Hot_cakes_with_syrup rdf:type owl:Class ;
                             skos:prefLabel "Hot_cakes_with_syrup"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Hot_milk_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Hot_milk_cake
 bakery:Hot_milk_cake rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -3049,7 +3049,7 @@ bakery:Hot_milk_cake rdf:type owl:Class ;
                      skos:prefLabel "Hot_milk_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Hummingbird_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Hummingbird_cake
 bakery:Hummingbird_cake rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -3098,7 +3098,7 @@ bakery:Hummingbird_cake rdf:type owl:Class ;
                         skos:prefLabel "Hummingbird_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ice_cream_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Ice_cream_cake
 bakery:Ice_cream_cake rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -3137,7 +3137,7 @@ bakery:Ice_cream_cake rdf:type owl:Class ;
                       skos:prefLabel "Ice_cream_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ice_cream_sundaes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Ice_cream_sundaes
 bakery:Ice_cream_sundaes rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -3166,11 +3166,11 @@ bakery:Ice_cream_sundaes rdf:type owl:Class ;
                          skos:prefLabel "Ice_cream_sundaes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ingredient
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Ingredient
 bakery:Ingredient rdf:type owl:Class .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jaffa_cakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Jaffa_cakes
 bakery:Jaffa_cakes rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -3214,7 +3214,7 @@ bakery:Jaffa_cakes rdf:type owl:Class ;
                    skos:prefLabel "Jaffa_cakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jam_rolly_polly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Jam_rolly_polly
 bakery:Jam_rolly_polly rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -3253,7 +3253,7 @@ bakery:Jam_rolly_polly rdf:type owl:Class ;
                        skos:prefLabel "Jam_rolly_polly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jam_tart
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Jam_tart
 bakery:Jam_tart rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -3292,7 +3292,7 @@ bakery:Jam_tart rdf:type owl:Class ;
                 skos:prefLabel "Jam_tart"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jamaican_rum_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Jamaican_rum_cake
 bakery:Jamaican_rum_cake rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -3331,7 +3331,7 @@ bakery:Jamaican_rum_cake rdf:type owl:Class ;
                          skos:prefLabel "Jamaican_rum_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Jewish_apple_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Jewish_apple_cake
 bakery:Jewish_apple_cake rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -3380,7 +3380,7 @@ bakery:Jewish_apple_cake rdf:type owl:Class ;
                          skos:prefLabel "Jewish_apple_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Kentucky_jam_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Kentucky_jam_cake
 bakery:Kentucky_jam_cake rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -3434,7 +3434,7 @@ bakery:Kentucky_jam_cake rdf:type owl:Class ;
                          skos:prefLabel "Kentucky_jam_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#LactoseFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#LactoseFriendly
 bakery:LactoseFriendly rdf:type owl:Class ;
                        owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                   [ rdf:type owl:Class ;
@@ -3453,7 +3453,7 @@ bakery:LactoseFriendly rdf:type owl:Class ;
                        skos:prefLabel "LactoseFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Ladyfinger_biscuits
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Ladyfinger_biscuits
 bakery:Ladyfinger_biscuits rdf:type owl:Class ;
                            rdfs:subClassOf bakery:Dessert ,
                                            [ rdf:type owl:Restriction ;
@@ -3487,7 +3487,7 @@ bakery:Ladyfinger_biscuits rdf:type owl:Class ;
                            skos:prefLabel "Ladyfinger_biscuits"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lamington_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Lamington_cake
 bakery:Lamington_cake rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -3526,7 +3526,7 @@ bakery:Lamington_cake rdf:type owl:Class ;
                       skos:prefLabel "Lamington_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lardy_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Lardy_cake
 bakery:Lardy_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -3570,7 +3570,7 @@ bakery:Lardy_cake rdf:type owl:Class ;
                   skos:prefLabel "Lardy_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Layer_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Layer_cake
 bakery:Layer_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -3614,7 +3614,7 @@ bakery:Layer_cake rdf:type owl:Class ;
                   skos:prefLabel "Layer_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lemon_citrus_tart
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Lemon_citrus_tart
 bakery:Lemon_citrus_tart rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -3658,7 +3658,7 @@ bakery:Lemon_citrus_tart rdf:type owl:Class ;
                          skos:prefLabel "Lemon_citrus_tart"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lemon_drizzle_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Lemon_drizzle_cake
 bakery:Lemon_drizzle_cake rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -3702,7 +3702,7 @@ bakery:Lemon_drizzle_cake rdf:type owl:Class ;
                           skos:prefLabel "Lemon_drizzle_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Lemon_meringue_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Lemon_meringue_pie
 bakery:Lemon_meringue_pie rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -3756,7 +3756,7 @@ bakery:Lemon_meringue_pie rdf:type owl:Class ;
                           skos:prefLabel "Lemon_meringue_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Madeira_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Madeira_cake
 bakery:Madeira_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -3790,7 +3790,7 @@ bakery:Madeira_cake rdf:type owl:Class ;
                     skos:prefLabel "Madeira_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Madeleines
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Madeleines
 bakery:Madeleines rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -3829,7 +3829,7 @@ bakery:Madeleines rdf:type owl:Class ;
                   skos:prefLabel "Madeleines"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Marzipan_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Marzipan_cake
 bakery:Marzipan_cake rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -3868,7 +3868,7 @@ bakery:Marzipan_cake rdf:type owl:Class ;
                      skos:prefLabel "Marzipan_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Meringue_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Meringue_cake
 bakery:Meringue_cake rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -3907,7 +3907,7 @@ bakery:Meringue_cake rdf:type owl:Class ;
                      skos:prefLabel "Meringue_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Mille_feuille_vanilla_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Mille_feuille_vanilla_cake
 bakery:Mille_feuille_vanilla_cake rdf:type owl:Class ;
                                   rdfs:subClassOf bakery:Dessert ,
                                                   [ rdf:type owl:Restriction ;
@@ -3946,7 +3946,7 @@ bakery:Mille_feuille_vanilla_cake rdf:type owl:Class ;
                                   skos:prefLabel "Mille_feuille_vanilla_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Millionaires_shortbread_squares
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Millionaires_shortbread_squares
 bakery:Millionaires_shortbread_squares rdf:type owl:Class ;
                                        rdfs:subClassOf bakery:Dessert ,
                                                        [ rdf:type owl:Restriction ;
@@ -3985,7 +3985,7 @@ bakery:Millionaires_shortbread_squares rdf:type owl:Class ;
                                        skos:prefLabel "Millionaires_shortbread_squares"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Molasses_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Molasses_cake
 bakery:Molasses_cake rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -4029,7 +4029,7 @@ bakery:Molasses_cake rdf:type owl:Class ;
                      skos:prefLabel "Molasses_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Molten_chocolate_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Molten_chocolate_cake
 bakery:Molten_chocolate_cake rdf:type owl:Class ;
                              rdfs:subClassOf bakery:Dessert ,
                                              [ rdf:type owl:Restriction ;
@@ -4068,7 +4068,7 @@ bakery:Molten_chocolate_cake rdf:type owl:Class ;
                              skos:prefLabel "Molten_chocolate_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Napoleon_cream_slice
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Napoleon_cream_slice
 bakery:Napoleon_cream_slice rdf:type owl:Class ;
                             rdfs:subClassOf bakery:Dessert ,
                                             [ rdf:type owl:Restriction ;
@@ -4102,7 +4102,7 @@ bakery:Napoleon_cream_slice rdf:type owl:Class ;
                             skos:prefLabel "Napoleon_cream_slice"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Neapolitan_ice_cream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Neapolitan_ice_cream
 bakery:Neapolitan_ice_cream rdf:type owl:Class ;
                             rdfs:subClassOf bakery:Dessert ,
                                             [ rdf:type owl:Restriction ;
@@ -4126,7 +4126,7 @@ bakery:Neapolitan_ice_cream rdf:type owl:Class ;
                             skos:prefLabel "Neapolitan_ice_cream"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#New_York_cheesecake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#New_York_cheesecake
 bakery:New_York_cheesecake rdf:type owl:Class ;
                            rdfs:subClassOf bakery:Dessert ,
                                            [ rdf:type owl:Restriction ;
@@ -4165,12 +4165,12 @@ bakery:New_York_cheesecake rdf:type owl:Class ;
                            skos:prefLabel "New_York_cheesecake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonDairy
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonDairy
 bakery:NonDairy rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonDiabetic
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonDiabetic
 bakery:NonDiabetic rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                               [ rdf:type owl:Class ;
@@ -4186,7 +4186,7 @@ bakery:NonDiabetic rdf:type owl:Class ;
                    skos:prefLabel "NonDiabetic"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonEggAllergy
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonEggAllergy
 bakery:NonEggAllergy rdf:type owl:Class ;
                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                 [ rdf:type owl:Class ;
@@ -4202,7 +4202,7 @@ bakery:NonEggAllergy rdf:type owl:Class ;
                      skos:prefLabel "NonEggAllergy"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonGluten
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonGluten
 bakery:NonGluten rdf:type owl:Class ;
                  owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                             [ rdf:type owl:Class ;
@@ -4218,7 +4218,7 @@ bakery:NonGluten rdf:type owl:Class ;
                  skos:prefLabel "NonGluten"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonLactose
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonLactose
 bakery:NonLactose rdf:type owl:Class ;
                   owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                              [ rdf:type owl:Class ;
@@ -4234,7 +4234,7 @@ bakery:NonLactose rdf:type owl:Class ;
                   skos:prefLabel "NonLactose"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonNutAllergy
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonNutAllergy
 bakery:NonNutAllergy rdf:type owl:Class ;
                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                 [ rdf:type owl:Class ;
@@ -4250,7 +4250,7 @@ bakery:NonNutAllergy rdf:type owl:Class ;
                      skos:prefLabel "NonNutAllergy"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonTeetotaller
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonTeetotaller
 bakery:NonTeetotaller rdf:type owl:Class ;
                       owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                  [ rdf:type owl:Class ;
@@ -4266,7 +4266,7 @@ bakery:NonTeetotaller rdf:type owl:Class ;
                       skos:prefLabel "NonTeetotaller"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonVegan
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonVegan
 bakery:NonVegan rdf:type owl:Class ;
                 owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                            [ rdf:type owl:Class ;
@@ -4282,7 +4282,7 @@ bakery:NonVegan rdf:type owl:Class ;
                 skos:prefLabel "NonVegan"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NonVegetarian
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NonVegetarian
 bakery:NonVegetarian rdf:type owl:Class ;
                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                 [ rdf:type owl:Class ;
@@ -4298,7 +4298,7 @@ bakery:NonVegetarian rdf:type owl:Class ;
                      skos:prefLabel "NonVegetarian"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#NutAllergyFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#NutAllergyFriendly
 bakery:NutAllergyFriendly rdf:type owl:Class ;
                           owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                      [ rdf:type owl:Class ;
@@ -4317,7 +4317,7 @@ bakery:NutAllergyFriendly rdf:type owl:Class ;
                           skos:prefLabel "NutAllergyFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Nutella_pancakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Nutella_pancakes
 bakery:Nutella_pancakes rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -4351,17 +4351,17 @@ bakery:Nutella_pancakes rdf:type owl:Class ;
                         skos:prefLabel "Nutella_pancakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Nuts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Nuts
 bakery:Nuts rdf:type owl:Class ;
             rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Other
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Other
 bakery:Other rdf:type owl:Class ;
              rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pain_dEpices
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pain_dEpices
 bakery:Pain_dEpices rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -4395,7 +4395,7 @@ bakery:Pain_dEpices rdf:type owl:Class ;
                     skos:prefLabel "Pain_dEpices"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pan_Forte
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pan_Forte
 bakery:Pan_Forte rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dessert ,
                                  [ rdf:type owl:Restriction ;
@@ -4444,7 +4444,7 @@ bakery:Pan_Forte rdf:type owl:Class ;
                  skos:prefLabel "Pan_Forte"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pandan_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pandan_cake
 bakery:Pandan_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -4483,7 +4483,7 @@ bakery:Pandan_cake rdf:type owl:Class ;
                    skos:prefLabel "Pandan_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Panna_cotta
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Panna_cotta
 bakery:Panna_cotta rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -4527,7 +4527,7 @@ bakery:Panna_cotta rdf:type owl:Class ;
                    skos:prefLabel "Panna_cotta"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pannetone
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pannetone
 bakery:Pannetone rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dessert ,
                                  [ rdf:type owl:Restriction ;
@@ -4571,7 +4571,7 @@ bakery:Pannetone rdf:type owl:Class ;
                  skos:prefLabel "Pannetone"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pavlova
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pavlova
 bakery:Pavlova rdf:type owl:Class ;
                rdfs:subClassOf bakery:Dessert ,
                                [ rdf:type owl:Restriction ;
@@ -4605,7 +4605,7 @@ bakery:Pavlova rdf:type owl:Class ;
                skos:prefLabel "Pavlova"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Peach_Melba
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Peach_Melba
 bakery:Peach_Melba rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -4639,7 +4639,7 @@ bakery:Peach_Melba rdf:type owl:Class ;
                    skos:prefLabel "Peach_Melba"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Peanut_butter_cups
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Peanut_butter_cups
 bakery:Peanut_butter_cups rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -4668,7 +4668,7 @@ bakery:Peanut_butter_cups rdf:type owl:Class ;
                           skos:prefLabel "Peanut_butter_cups"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pear_flan
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pear_flan
 bakery:Pear_flan rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dessert ,
                                  [ rdf:type owl:Restriction ;
@@ -4707,7 +4707,7 @@ bakery:Pear_flan rdf:type owl:Class ;
                  skos:prefLabel "Pear_flan"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pecan_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pecan_pie
 bakery:Pecan_pie rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dessert ,
                                  [ rdf:type owl:Restriction ;
@@ -4741,7 +4741,7 @@ bakery:Pecan_pie rdf:type owl:Class ;
                  skos:prefLabel "Pecan_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Petit_fours
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Petit_fours
 bakery:Petit_fours rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -4775,7 +4775,7 @@ bakery:Petit_fours rdf:type owl:Class ;
                    skos:prefLabel "Petit_fours"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pineapple_upside-down_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pineapple_upside-down_cake
 bakery:Pineapple_upside-down_cake rdf:type owl:Class ;
                                   rdfs:subClassOf bakery:Dessert ,
                                                   [ rdf:type owl:Restriction ;
@@ -4814,7 +4814,7 @@ bakery:Pineapple_upside-down_cake rdf:type owl:Class ;
                                   skos:prefLabel "Pineapple_upside-down_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Poire_belle_Helene
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Poire_belle_Helene
 bakery:Poire_belle_Helene rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -4858,7 +4858,7 @@ bakery:Poire_belle_Helene rdf:type owl:Class ;
                           skos:prefLabel "Poire_belle_Helene"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pound_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pound_cake
 bakery:Pound_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -4897,7 +4897,7 @@ bakery:Pound_cake rdf:type owl:Class ;
                   skos:prefLabel "Pound_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Prinzregententorte
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Prinzregententorte
 bakery:Prinzregententorte rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -4941,7 +4941,7 @@ bakery:Prinzregententorte rdf:type owl:Class ;
                           skos:prefLabel "Prinzregententorte"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Profiteroles_and_chocolate_sauce
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Profiteroles_and_chocolate_sauce
 bakery:Profiteroles_and_chocolate_sauce rdf:type owl:Class ;
                                         rdfs:subClassOf bakery:Dessert ,
                                                         [ rdf:type owl:Restriction ;
@@ -4980,7 +4980,7 @@ bakery:Profiteroles_and_chocolate_sauce rdf:type owl:Class ;
                                         skos:prefLabel "Profiteroles_and_chocolate_sauce"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Pumpkin_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Pumpkin_pie
 bakery:Pumpkin_pie rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -5019,7 +5019,7 @@ bakery:Pumpkin_pie rdf:type owl:Class ;
                    skos:prefLabel "Pumpkin_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Punschkrapfen
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Punschkrapfen
 bakery:Punschkrapfen rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -5063,7 +5063,7 @@ bakery:Punschkrapfen rdf:type owl:Class ;
                      skos:prefLabel "Punschkrapfen"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Raspberry_mille-feuille
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Raspberry_mille-feuille
 bakery:Raspberry_mille-feuille rdf:type owl:Class ;
                                rdfs:subClassOf bakery:Dessert ,
                                                [ rdf:type owl:Restriction ;
@@ -5102,7 +5102,7 @@ bakery:Raspberry_mille-feuille rdf:type owl:Class ;
                                skos:prefLabel "Raspberry_mille-feuille"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Red_velvet_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Red_velvet_cake
 bakery:Red_velvet_cake rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Dessert ,
                                        [ rdf:type owl:Restriction ;
@@ -5146,7 +5146,7 @@ bakery:Red_velvet_cake rdf:type owl:Class ;
                        skos:prefLabel "Red_velvet_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rice_Krispie_cakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Rice_Krispie_cakes
 bakery:Rice_Krispie_cakes rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -5170,7 +5170,7 @@ bakery:Rice_Krispie_cakes rdf:type owl:Class ;
                           skos:prefLabel "Rice_Krispie_cakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rice_pudding
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Rice_pudding
 bakery:Rice_pudding rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -5204,7 +5204,7 @@ bakery:Rice_pudding rdf:type owl:Class ;
                     skos:prefLabel "Rice_pudding"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rock_cakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Rock_cakes
 bakery:Rock_cakes rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -5243,7 +5243,7 @@ bakery:Rock_cakes rdf:type owl:Class ;
                   skos:prefLabel "Rock_cakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rocky_road
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Rocky_road
 bakery:Rocky_road rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -5282,7 +5282,7 @@ bakery:Rocky_road rdf:type owl:Class ;
                   skos:prefLabel "Rocky_road"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rum_baba
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Rum_baba
 bakery:Rum_baba rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -5321,7 +5321,7 @@ bakery:Rum_baba rdf:type owl:Class ;
                 skos:prefLabel "Rum_baba"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Rum_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Rum_cake
 bakery:Rum_cake rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -5360,7 +5360,7 @@ bakery:Rum_cake rdf:type owl:Class ;
                 skos:prefLabel "Rum_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sachertorte
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Sachertorte
 bakery:Sachertorte rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -5399,7 +5399,7 @@ bakery:Sachertorte rdf:type owl:Class ;
                    skos:prefLabel "Sachertorte"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sesame_seed_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Sesame_seed_cake
 bakery:Sesame_seed_cake rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -5433,7 +5433,7 @@ bakery:Sesame_seed_cake rdf:type owl:Class ;
                         skos:prefLabel "Sesame_seed_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Shoofly_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Shoofly_pie
 bakery:Shoofly_pie rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -5477,7 +5477,7 @@ bakery:Shoofly_pie rdf:type owl:Class ;
                    skos:prefLabel "Shoofly_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Simnel_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Simnel_cake
 bakery:Simnel_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -5526,7 +5526,7 @@ bakery:Simnel_cake rdf:type owl:Class ;
                    skos:prefLabel "Simnel_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Snickers_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Snickers_cake
 bakery:Snickers_cake rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -5565,12 +5565,12 @@ bakery:Snickers_cake rdf:type owl:Class ;
                      skos:prefLabel "Snickers_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Spice
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Spice
 bakery:Spice rdf:type owl:Class ;
              rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Spice_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Spice_cake
 bakery:Spice_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -5619,7 +5619,7 @@ bakery:Spice_cake rdf:type owl:Class ;
                   skos:prefLabel "Spice_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#SpicyDessert
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#SpicyDessert
 bakery:SpicyDessert rdf:type owl:Class ;
                     owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                [ rdf:type owl:Restriction ;
@@ -5636,7 +5636,7 @@ bakery:SpicyDessert rdf:type owl:Class ;
                     skos:prefLabel "SpicyDessert"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sponge_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Sponge_cake
 bakery:Sponge_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -5675,7 +5675,7 @@ bakery:Sponge_cake rdf:type owl:Class ;
                    skos:prefLabel "Sponge_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Stollen_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Stollen_cake
 bakery:Stollen_cake rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -5719,7 +5719,7 @@ bakery:Stollen_cake rdf:type owl:Class ;
                     skos:prefLabel "Stollen_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Strawberry_cheesecake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Strawberry_cheesecake
 bakery:Strawberry_cheesecake rdf:type owl:Class ;
                              rdfs:subClassOf bakery:Dessert ,
                                              [ rdf:type owl:Restriction ;
@@ -5753,7 +5753,7 @@ bakery:Strawberry_cheesecake rdf:type owl:Class ;
                              skos:prefLabel "Strawberry_cheesecake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Strawberry_shortcake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Strawberry_shortcake
 bakery:Strawberry_shortcake rdf:type owl:Class ;
                             rdfs:subClassOf bakery:Dessert ,
                                             [ rdf:type owl:Restriction ;
@@ -5787,7 +5787,7 @@ bakery:Strawberry_shortcake rdf:type owl:Class ;
                             skos:prefLabel "Strawberry_shortcake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Streuselkuchen
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Streuselkuchen
 bakery:Streuselkuchen rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dessert ,
                                       [ rdf:type owl:Restriction ;
@@ -5826,23 +5826,23 @@ bakery:Streuselkuchen rdf:type owl:Class ;
                       skos:prefLabel "Streuselkuchen"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Sugar
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Sugar
 bakery:Sugar rdf:type owl:Class ;
              rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#SugarAnimal
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#SugarAnimal
 bakery:SugarAnimal rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Sugar ;
                    owl:disjointWith bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#SugarPlant
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#SugarPlant
 bakery:SugarPlant rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Sugar .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Swiss_roll
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Swiss_roll
 bakery:Swiss_roll rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -5881,7 +5881,7 @@ bakery:Swiss_roll rdf:type owl:Class ;
                   skos:prefLabel "Swiss_roll"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tarta_de_Santiago
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tarta_de_Santiago
 bakery:Tarta_de_Santiago rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dessert ,
                                          [ rdf:type owl:Restriction ;
@@ -5930,7 +5930,7 @@ bakery:Tarta_de_Santiago rdf:type owl:Class ;
                          skos:prefLabel "Tarta_de_Santiago"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tarte_Tatin
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tarte_Tatin
 bakery:Tarte_Tatin rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -5964,7 +5964,7 @@ bakery:Tarte_Tatin rdf:type owl:Class ;
                    skos:prefLabel "Tarte_Tatin"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tartufo
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tartufo
 bakery:Tartufo rdf:type owl:Class ;
                rdfs:subClassOf bakery:Dessert ,
                                [ rdf:type owl:Restriction ;
@@ -5998,7 +5998,7 @@ bakery:Tartufo rdf:type owl:Class ;
                skos:prefLabel "Tartufo"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tea_loaf
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tea_loaf
 bakery:Tea_loaf rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -6042,7 +6042,7 @@ bakery:Tea_loaf rdf:type owl:Class ;
                 skos:prefLabel "Tea_loaf"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#TeetotallerFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#TeetotallerFriendly
 bakery:TeetotallerFriendly rdf:type owl:Class ;
                            owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                       [ rdf:type owl:Class ;
@@ -6061,7 +6061,7 @@ bakery:TeetotallerFriendly rdf:type owl:Class ;
                            skos:prefLabel "TeetotallerFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tin_roof_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tin_roof_pie
 bakery:Tin_roof_pie rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -6095,7 +6095,7 @@ bakery:Tin_roof_pie rdf:type owl:Class ;
                     skos:prefLabel "Tin_roof_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tipsy_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tipsy_cake
 bakery:Tipsy_cake rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dessert ,
                                   [ rdf:type owl:Restriction ;
@@ -6134,7 +6134,7 @@ bakery:Tipsy_cake rdf:type owl:Class ;
                   skos:prefLabel "Tipsy_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tiramisu
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tiramisu
 bakery:Tiramisu rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -6178,7 +6178,7 @@ bakery:Tiramisu rdf:type owl:Class ;
                 skos:prefLabel "Tiramisu"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Torta_caprese
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Torta_caprese
 bakery:Torta_caprese rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -6217,7 +6217,7 @@ bakery:Torta_caprese rdf:type owl:Class ;
                      skos:prefLabel "Torta_caprese"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Torta_de_nata
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Torta_de_nata
 bakery:Torta_de_nata rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dessert ,
                                      [ rdf:type owl:Restriction ;
@@ -6246,7 +6246,7 @@ bakery:Torta_de_nata rdf:type owl:Class ;
                      skos:prefLabel "Torta_de_nata"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Treacle_tart
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Treacle_tart
 bakery:Treacle_tart rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dessert ,
                                     [ rdf:type owl:Restriction ;
@@ -6280,7 +6280,7 @@ bakery:Treacle_tart rdf:type owl:Class ;
                     skos:prefLabel "Treacle_tart"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Tres_leches_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Tres_leches_cake
 bakery:Tres_leches_cake rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -6319,7 +6319,7 @@ bakery:Tres_leches_cake rdf:type owl:Class ;
                         skos:prefLabel "Tres_leches_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vanilla_cupcakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Vanilla_cupcakes
 bakery:Vanilla_cupcakes rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Dessert ,
                                         [ rdf:type owl:Restriction ;
@@ -6363,7 +6363,7 @@ bakery:Vanilla_cupcakes rdf:type owl:Class ;
                         skos:prefLabel "Vanilla_cupcakes"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vanilla_wafer_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Vanilla_wafer_cake
 bakery:Vanilla_wafer_cake rdf:type owl:Class ;
                           rdfs:subClassOf bakery:Dessert ,
                                           [ rdf:type owl:Restriction ;
@@ -6412,7 +6412,7 @@ bakery:Vanilla_wafer_cake rdf:type owl:Class ;
                           skos:prefLabel "Vanilla_wafer_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VeganFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#VeganFriendly
 bakery:VeganFriendly rdf:type owl:Class ;
                      owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                 [ rdf:type owl:Restriction ;
@@ -6429,7 +6429,7 @@ bakery:VeganFriendly rdf:type owl:Class ;
                      skos:prefLabel "VeganFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VeganIngredient
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#VeganIngredient
 bakery:VeganIngredient rdf:type owl:Class ;
                        owl:equivalentClass [ owl:intersectionOf ( bakery:Ingredient
                                                                   [ rdf:type owl:Class ;
@@ -6450,12 +6450,12 @@ bakery:VeganIngredient rdf:type owl:Class ;
                        skos:prefLabel "VeganIngredient"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vegetable
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Vegetable
 bakery:Vegetable rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Ingredient .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#VegetarianFriendly
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#VegetarianFriendly
 bakery:VegetarianFriendly rdf:type owl:Class ;
                           owl:equivalentClass [ owl:intersectionOf ( bakery:Dessert
                                                                      [ rdf:type owl:Class ;
@@ -6474,7 +6474,7 @@ bakery:VegetarianFriendly rdf:type owl:Class ;
                           skos:prefLabel "VegetarianFriendly"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Vinegar_pie
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Vinegar_pie
 bakery:Vinegar_pie rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -6518,7 +6518,7 @@ bakery:Vinegar_pie rdf:type owl:Class ;
                    skos:prefLabel "Vinegar_pie"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Walnut_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Walnut_cake
 bakery:Walnut_cake rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dessert ,
                                    [ rdf:type owl:Restriction ;
@@ -6572,7 +6572,7 @@ bakery:Walnut_cake rdf:type owl:Class ;
                    skos:prefLabel "Walnut_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#White_sugar_sponge_cake
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#White_sugar_sponge_cake
 bakery:White_sugar_sponge_cake rdf:type owl:Class ;
                                rdfs:subClassOf bakery:Dessert ,
                                                [ rdf:type owl:Restriction ;
@@ -6601,7 +6601,7 @@ bakery:White_sugar_sponge_cake rdf:type owl:Class ;
                                skos:prefLabel "White_sugar_sponge_cake"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Yule_log
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Yule_log
 bakery:Yule_log rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -6640,7 +6640,7 @@ bakery:Yule_log rdf:type owl:Class ;
                 skos:prefLabel "Yule_log"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#Zabaione
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#Zabaione
 bakery:Zabaione rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dessert ,
                                 [ rdf:type owl:Restriction ;
@@ -6669,648 +6669,648 @@ bakery:Zabaione rdf:type owl:Class ;
                 skos:prefLabel "Zabaione"@en .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almond_essence
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#almond_essence
 bakery:almond_essence rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almond_paste
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#almond_paste
 bakery:almond_paste rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#almonds
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#almonds
 bakery:almonds rdf:type owl:Class ;
                rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apples
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#apples
 bakery:apples rdf:type owl:Class ;
               rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#apricot_jam
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#apricot_jam
 bakery:apricot_jam rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bakers_yeast
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#bakers_yeast
 bakery:bakers_yeast rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#baking_powder
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#baking_powder
 bakery:baking_powder rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bananas
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#bananas
 bakery:bananas rdf:type owl:Class ;
                rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#beetroot_juice
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#beetroot_juice
 bakery:beetroot_juice rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Vegetable .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#biscuit_crumbs
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#biscuit_crumbs
 bakery:biscuit_crumbs rdf:type owl:Class ;
                       rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#blueberries
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#blueberries
 bakery:blueberries rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#brandy
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#brandy
 bakery:brandy rdf:type owl:Class ;
               rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#bread_slices
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#bread_slices
 bakery:bread_slices rdf:type owl:Class ;
                     rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#breadcrumbs
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#breadcrumbs
 bakery:breadcrumbs rdf:type owl:Class ;
                    rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#brown_sugar
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#brown_sugar
 bakery:brown_sugar rdf:type owl:Class ;
                    rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#butter
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#butter
 bakery:butter rdf:type owl:Class ;
               rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#buttercream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#buttercream
 bakery:buttercream rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#buttermilk
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#buttermilk
 bakery:buttermilk rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#button
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#button
 bakery:button rdf:type owl:Class ;
               rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#caraway_seeds
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#caraway_seeds
 bakery:caraway_seeds rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cherries
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cherries
 bakery:cherries rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cherry_liqueur
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cherry_liqueur
 bakery:cherry_liqueur rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate
 bakery:chocolate rdf:type owl:Class ;
                  rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_buttons
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_buttons
 bakery:chocolate_buttons rdf:type owl:Class ;
                          rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_chips
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_chips
 bakery:chocolate_chips rdf:type owl:Class ;
                        rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_cookie_crumbs
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_cookie_crumbs
 bakery:chocolate_cookie_crumbs rdf:type owl:Class ;
                                rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_curls
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_curls
 bakery:chocolate_curls rdf:type owl:Class ;
                        rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_fondant
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_fondant
 bakery:chocolate_fondant rdf:type owl:Class ;
                          rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_ganache
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_ganache
 bakery:chocolate_ganache rdf:type owl:Class ;
                          rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chocolate_sauce
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chocolate_sauce
 bakery:chocolate_sauce rdf:type owl:Class ;
                        rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chopped_pecans
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chopped_pecans
 bakery:chopped_pecans rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#chopped_walnuts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#chopped_walnuts
 bakery:chopped_walnuts rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#choux_pastry
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#choux_pastry
 bakery:choux_pastry rdf:type owl:Class ;
                     rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cinnamon
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cinnamon
 bakery:cinnamon rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Spice .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#citrus_oil
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#citrus_oil
 bakery:citrus_oil rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cocoa_powder
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cocoa_powder
 bakery:cocoa_powder rdf:type owl:Class ;
                     rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coconut_milk
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#coconut_milk
 bakery:coconut_milk rdf:type owl:Class ;
                     rdfs:subClassOf bakery:NonDairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#coffee_powder
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#coffee_powder
 bakery:coffee_powder rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#condensed_milk
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#condensed_milk
 bakery:condensed_milk rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cool_whip
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cool_whip
 bakery:cool_whip rdf:type owl:Class ;
                  rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#corn_flakes
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#corn_flakes
 bakery:corn_flakes rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cornflour
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cornflour
 bakery:cornflour rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cornstarch
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cornstarch
 bakery:cornstarch rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cream
 bakery:cream rdf:type owl:Class ;
              rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#cream_cheese
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#cream_cheese
 bakery:cream_cheese rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crumbs
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#crumbs
 bakery:crumbs rdf:type owl:Class ;
               rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#crushed_pineapple
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#crushed_pineapple
 bakery:crushed_pineapple rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#currants
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#currants
 bakery:currants rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#custard
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#custard
 bakery:custard rdf:type owl:Class ;
                rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#dark_chocolate
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#dark_chocolate
 bakery:dark_chocolate rdf:type owl:Class ;
                       rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#dried_cherries
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#dried_cherries
 bakery:dried_cherries rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#dried_cranberries
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#dried_cranberries
 bakery:dried_cranberries rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#egg_whites
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#egg_whites
 bakery:egg_whites rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Egg .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#egg_yolks
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#egg_yolks
 bakery:egg_yolks rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Egg .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#eggs
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#eggs
 bakery:eggs rdf:type owl:Class ;
             rdfs:subClassOf bakery:Egg .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#flour
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#flour
 bakery:flour rdf:type owl:Class ;
              rdfs:subClassOf bakery:GlutenPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#fresh_mint
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#fresh_mint
 bakery:fresh_mint rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#gelatin
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#gelatin
 bakery:gelatin rdf:type owl:Class ;
                rdfs:subClassOf bakery:AnimalByProduct ;
                owl:disjointWith bakery:lard .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#golden_syrup
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#golden_syrup
 bakery:golden_syrup rdf:type owl:Class ;
                     rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#grand_marnier
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#grand_marnier
 bakery:grand_marnier rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ground_almonds
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ground_almonds
 bakery:ground_almonds rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ground_cloves
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ground_cloves
 bakery:ground_cloves rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Spice .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ground_ginger
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ground_ginger
 bakery:ground_ginger rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Spice .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ground_hazelnuts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ground_hazelnuts
 bakery:ground_hazelnuts rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ground_nutmeg
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ground_nutmeg
 bakery:ground_nutmeg rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Spice .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hazelnuts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#hazelnuts
 bakery:hazelnuts rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#heavy_cream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#heavy_cream
 bakery:heavy_cream rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#honey
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#honey
 bakery:honey rdf:type owl:Class ;
              rdfs:subClassOf bakery:Animal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hot_milk
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#hot_milk
 bakery:hot_milk rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#hot_tea
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#hot_tea
 bakery:hot_tea rdf:type owl:Class ;
                rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ice_cream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ice_cream
 bakery:ice_cream rdf:type owl:Class ;
                  rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#icing_sugar
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#icing_sugar
 bakery:icing_sugar rdf:type owl:Class ;
                    rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#jam
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#jam
 bakery:jam rdf:type owl:Class ;
            rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#kirsch
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#kirsch
 bakery:kirsch rdf:type owl:Class ;
               rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lard
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#lard
 bakery:lard rdf:type owl:Class ;
             rdfs:subClassOf bakery:AnimalByProduct .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_juice
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#lemon_juice
 bakery:lemon_juice rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#lemon_zest
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#lemon_zest
 bakery:lemon_zest rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#liqueur
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#liqueur
 bakery:liqueur rdf:type owl:Class ;
                rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#liquore_strega
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#liquore_strega
 bakery:liquore_strega rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#marsala_wine
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#marsala_wine
 bakery:marsala_wine rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#marshmallow_fluff
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#marshmallow_fluff
 bakery:marshmallow_fluff rdf:type owl:Class ;
                          rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#marzipan
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#marzipan
 bakery:marzipan rdf:type owl:Class ;
                 rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#mascarpone_cheese
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#mascarpone_cheese
 bakery:mascarpone_cheese rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#meringue
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#meringue
 bakery:meringue rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Egg .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#milk
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#milk
 bakery:milk rdf:type owl:Class ;
             rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#mini_marshmallows
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#mini_marshmallows
 bakery:mini_marshmallows rdf:type owl:Class ;
                          rdfs:subClassOf bakery:SugarAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#molasses
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#molasses
 bakery:molasses rdf:type owl:Class ;
                 rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#no_flour
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#no_flour
 bakery:no_flour rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#nutella
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#nutella
 bakery:nutella rdf:type owl:Class ;
                rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#nutmeg
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#nutmeg
 bakery:nutmeg rdf:type owl:Class ;
               rdfs:subClassOf bakery:Spice .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#orange_juice
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#orange_juice
 bakery:orange_juice rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#orange_zest
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#orange_zest
 bakery:orange_zest rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pandan_leaves
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#pandan_leaves
 bakery:pandan_leaves rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peaches
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#peaches
 bakery:peaches rdf:type owl:Class ;
                rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peanut_butter
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#peanut_butter
 bakery:peanut_butter rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#peanuts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#peanuts
 bakery:peanuts rdf:type owl:Class ;
                rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pears
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#pears
 bakery:pears rdf:type owl:Class ;
              rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pecans
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#pecans
 bakery:pecans rdf:type owl:Class ;
               rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pineapple_rings
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#pineapple_rings
 bakery:pineapple_rings rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#puff_pastry
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#puff_pastry
 bakery:puff_pastry rdf:type owl:Class ;
                    rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#pumpkin
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#pumpkin
 bakery:pumpkin rdf:type owl:Class ;
                rdfs:subClassOf bakery:Vegetable .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#raisins
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#raisins
 bakery:raisins rdf:type owl:Class ;
                rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#raspberries
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#raspberries
 bakery:raspberries rdf:type owl:Class ;
                    rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rice_flour
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#rice_flour
 bakery:rice_flour rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rice_krispies
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#rice_krispies
 bakery:rice_krispies rdf:type owl:Class ;
                      rdfs:subClassOf bakery:GlutenPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#ricotta_cheese
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#ricotta_cheese
 bakery:ricotta_cheese rdf:type owl:Class ;
                       rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rum
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#rum
 bakery:rum rdf:type owl:Class ;
            rdfs:subClassOf bakery:Alcohol .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#rye_flour
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#rye_flour
 bakery:rye_flour rdf:type owl:Class ;
                  rdfs:subClassOf bakery:GlutenPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#saltines
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#saltines
 bakery:saltines rdf:type owl:Class ;
                 rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sesame_seeds
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#sesame_seeds
 bakery:sesame_seeds rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#shredded_carrots
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#shredded_carrots
 bakery:shredded_carrots rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Vegetable .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#shredded_coconut
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#shredded_coconut
 bakery:shredded_coconut rdf:type owl:Class ;
                         rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sponge
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#sponge
 bakery:sponge rdf:type owl:Class ;
               rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sponge_fingers
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#sponge_fingers
 bakery:sponge_fingers rdf:type owl:Class ;
                       rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#starch_syrup
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#starch_syrup
 bakery:starch_syrup rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#strawberries
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#strawberries
 bakery:strawberries rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sugar
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#sugar
 bakery:sugar rdf:type owl:Class ;
              rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#sultanas
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#sultanas
 bakery:sultanas rdf:type owl:Class ;
                 rdfs:subClassOf bakery:Fruit .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#toasted_nuts
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#toasted_nuts
 bakery:toasted_nuts rdf:type owl:Class ;
                     rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#toffee
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#toffee
 bakery:toffee rdf:type owl:Class ;
               rdfs:subClassOf bakery:SugarPlant .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vanilla_essence
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#vanilla_essence
 bakery:vanilla_essence rdf:type owl:Class ;
                        rdfs:subClassOf bakery:Flavouring .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vanilla_ice_cream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#vanilla_ice_cream
 bakery:vanilla_ice_cream rdf:type owl:Class ;
                          rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vegetable_oil
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#vegetable_oil
 bakery:vegetable_oil rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Vegetable .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#vinegar
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#vinegar
 bakery:vinegar rdf:type owl:Class ;
                rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#wafers
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#wafers
 bakery:wafers rdf:type owl:Class ;
               rdfs:subClassOf bakery:GlutenAnimal .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#walnut_halves
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#walnut_halves
 bakery:walnut_halves rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Nuts .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#whipped_cream
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#whipped_cream
 bakery:whipped_cream rdf:type owl:Class ;
                      rdfs:subClassOf bakery:Dairy .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#white_rice
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#white_rice
 bakery:white_rice rdf:type owl:Class ;
                   rdfs:subClassOf bakery:Other .
 
 
-###  https://raw.githubusercontent.com/damorton/bakery-ontology/master/bamboozledbakery.owl#white_sugar
+###  https://raw.githubusercontent.com/m0n574/bakery-ontology/master/pastrybakery.owl#white_sugar
 bakery:white_sugar rdf:type owl:Class ;
                    rdfs:subClassOf bakery:SugarPlant .
 
