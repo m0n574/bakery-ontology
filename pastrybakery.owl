@@ -15,11 +15,10 @@
                                                                                           dc:description "An ontology about a bakery and its products."@en ;
                                                                                           rdfs:label "pastrybakery.owl"^^xsd:string ;
                                                                                           dc:title "pastrybakery.owl"@en ;
-                                                                                          terms:license "MIT"^^xsd:string ;
+                                                                                          
                                                                                           terms:provenance "Version 1.0 of pastrybakery.owl ontology."@en ;
                                                                                           terms:contributor "PearlGopikaGopika" ;
-                                                                                          owl:versionInfo "1.0"^^xsd:string .
-
+                                                                                          
 #################################################################
 #    Annotation properties
 #################################################################
